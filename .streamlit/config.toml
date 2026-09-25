@@ -1,0 +1,8 @@
+[server]
+# Streamlit's module watcher touches every lazy submodule of `transformers`,
+# which spams ModuleNotFoundError tracebacks for torchvision (not needed here).
+fileWatcherType = "none"
+
+[theme]
+base = "light"
+primaryColor = "#c00000"

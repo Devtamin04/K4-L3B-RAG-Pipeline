@@ -1,5 +1,36 @@
 # RAG evaluation results
 
+## Thông tin nhóm
+
+| Field | Value |
+| --- | --- |
+| Nhóm | K4-L3B |
+| Repository/branch | `K4-L3B-RAG-Pipeline` / `main` |
+| Bài toán | Trợ lý tra cứu pháp lý, thuế và hóa đơn điện tử cho hộ kinh doanh Việt Nam |
+| Corpus | 5 văn bản pháp luật (PDF + HTML toàn văn) và 5 bài hướng dẫn từ chinhphu.vn |
+
+## Thành viên và phân công
+
+Mỗi thành viên tự điền dòng của mình và chỉ kê khai phần việc đối chiếu được bằng file, commit, test hoặc kết quả evaluation. Thêm hoặc bớt dòng theo số thành viên thực tế.
+
+| # | Họ và tên | Mã học viên | Module phụ trách | Individual report |
+| --: | --- | --- | --- | --- |
+| 1 | Nguyễn Quang Tuấn | 2A202602470 | Data pipeline, Retrieval, Orchestration, Generation/UI, Evaluation | `reports/2A202602470-nqtuan.md` |
+| 2 |  |  |  |  |
+| 3 |  |  |  |  |
+| 4 |  |  |  |  |
+
+### Ownership theo module
+
+| Module | Phụ trách chính | Thành viên hỗ trợ | Bằng chứng | Trạng thái |
+| --- | --- | --- | --- | --- |
+| Data pipeline (Task 1–3) | Nguyễn Quang Tuấn |  | `src/task1_*` đến `src/task3_*`, `data/` | Done |
+| Retrieval (Task 4–7) | Nguyễn Quang Tuấn |  | `src/task4_*` đến `src/task7_*` | Done |
+| Orchestration (Task 8–9) | Nguyễn Quang Tuấn |  | `src/task8_*`, `src/task9_*` | Done |
+| Generation/UI (Task 10) | Nguyễn Quang Tuấn |  | `src/task10_generation.py`, `app.py` | Done |
+| Evaluation | Nguyễn Quang Tuấn |  | `group_project/evaluation/` | Done |
+|  |  |  |  |  |
+
 ## Run information
 
 | Field | Value |
@@ -61,4 +92,33 @@
 
 ## Bonus experiments
 
-`dangvantuan/vietnamese-embedding` được giữ làm phương án A/B bổ sung nhưng chưa dùng làm baseline hay trộn vào collection BGE-M3.
+| Hạng mục | Trạng thái | Bằng chứng | Ghi chú |
+| --- | --- | --- | --- |
+| UI citation/source highlighting | Chạy được trong demo | `app.py`, `demo_style.css` | Click `[Document N]` để làm nổi bật card nguồn tương ứng |
+| Embedding thay thế `dangvantuan/vietnamese-embedding` | Có trong demo, chưa đánh giá Ragas | `demo_embeddings.py`, tab "Vietnamese Embedding" | Collection riêng 768 chiều; threshold `0.573` chưa calibrate lại cho model này |
+|  |  |  |  |
+
+Pipeline lab trong `src/` vẫn chỉ dùng `BAAI/bge-m3`; model thay thế không được trộn vào collection BGE-M3.
+
+## Kiểm thử
+
+- `pytest -q`: 21 passed (chạy lại ngày 2026-09-25).
+
+## Ghi chú bổ sung của thành viên
+
+Dành cho các thành viên khác bổ sung phân tích lỗi, thí nghiệm hoặc đề xuất thuộc phần mình phụ trách.
+
+### Thành viên 2 —
+
+- Nội dung:
+- Bằng chứng:
+
+### Thành viên 3 —
+
+- Nội dung:
+- Bằng chứng:
+
+### Thành viên 4 —
+
+- Nội dung:
+- Bằng chứng:
