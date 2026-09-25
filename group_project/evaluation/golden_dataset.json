@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Từ năm 2026, ngưỡng doanh thu năm không phải nộp thuế GTGT và thuế TNCN của hộ kinh doanh là bao nhiêu?",
+    "expected_answer": "Ngưỡng là 01 tỷ đồng một năm, theo mức sửa đổi tại Nghị định 141/2026/NĐ-CP và áp dụng từ ngày 01/01/2026.",
+    "expected_context": "Nghị định 141/2026/NĐ-CP sửa cụm từ 500 triệu đồng thành 01 tỷ đồng tại các điều liên quan đến thuế GTGT và thuế TNCN của Nghị định 68/2026/NĐ-CP."
+  },
+  {
+    "question": "Hộ kinh doanh có doanh thu năm trên 1 tỷ đồng phải dùng loại hóa đơn nào?",
+    "expected_answer": "Phải áp dụng hóa đơn điện tử có mã của cơ quan thuế hoặc hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+    "expected_context": "Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng phải áp dụng hóa đơn điện tử theo Nghị định 141/2026/NĐ-CP."
+  },
+  {
+    "question": "Hộ có doanh thu dưới 1 tỷ đồng có được tự nguyện dùng hóa đơn điện tử không?",
+    "expected_answer": "Có. Nếu có nhu cầu và đáp ứng điều kiện, hộ được đăng ký hóa đơn điện tử có mã hoặc hóa đơn điện tử khởi tạo từ máy tính tiền kết nối với cơ quan thuế.",
+    "expected_context": "Bài hướng dẫn hóa đơn điện tử nêu hộ có doanh thu dưới 01 tỷ đồng có nhu cầu thì đăng ký sử dụng HĐĐT có mã hoặc HĐĐT từ máy tính tiền."
+  },
+  {
+    "question": "Hộ đang hoạt động mà doanh thu lũy kế trong năm vượt 1 tỷ đồng phải đăng ký hóa đơn điện tử trong bao lâu?",
+    "expected_answer": "Trong 30 ngày kể từ ngày cuối cùng của kỳ tính thuế mà doanh thu lũy kế vượt 01 tỷ đồng.",
+    "expected_context": "Nghị định 141/2026/NĐ-CP quy định thời hạn đăng ký sử dụng hóa đơn điện tử là 30 ngày kể từ ngày cuối kỳ tính thuế có doanh thu lũy kế trên 01 tỷ đồng."
+  },
+  {
+    "question": "Nếu hộ có nhiều địa điểm kinh doanh thì ghi thông tin thuế trên hóa đơn ra sao?",
+    "expected_answer": "Dùng mã số thuế của hộ cho tất cả cửa hàng và ghi rõ mã địa điểm kinh doanh trên hóa đơn.",
+    "expected_context": "Trường hợp có nhiều địa điểm kinh doanh, hộ dùng mã số thuế chung và phải ghi mã địa điểm kinh doanh trên hóa đơn."
+  },
+  {
+    "question": "Mẫu tờ khai chính dành cho hộ nộp thuế theo phương pháp thuế suất nhân doanh thu là mẫu nào?",
+    "expected_answer": "Mẫu số 01/CNKD.",
+    "expected_context": "Văn bản hợp nhất 24/2026/VBHN-TT-BTC quy định hồ sơ khai thuế theo phương pháp thuế suất nhân doanh thu là Tờ khai mẫu 01/CNKD."
+  },
+  {
+    "question": "Hộ không chịu thuế GTGT và không phải nộp thuế TNCN thông báo doanh thu bằng mẫu nào?",
+    "expected_answer": "Mẫu số 01/TKN-CNKD.",
+    "expected_context": "Hướng dẫn thủ tục khai thuế quy định nhóm không chịu thuế GTGT, không phải nộp thuế TNCN thông báo doanh thu thực tế theo mẫu 01/TKN-CNKD."
+  },
+  {
+    "question": "Mẫu thông báo tài khoản ngân hàng hoặc ví điện tử của hộ kinh doanh là mẫu nào?",
+    "expected_answer": "Mẫu số 01/BK-STK.",
+    "expected_context": "Thông báo số tài khoản hoặc số hiệu ví điện tử thực hiện theo mẫu 01/BK-STK ban hành kèm thông tư quản lý thuế."
+  },
+  {
+    "question": "Hộ tính thuế theo phương pháp thu nhập tính thuế nhân thuế suất phải lập bảng kê tài sản nào khi chuyển đổi?",
+    "expected_answer": "Phải lập Bảng kê hàng tồn kho, máy móc, thiết bị theo mẫu 01/BK-HTK.",
+    "expected_context": "Bài hướng dẫn khai thuế yêu cầu lập bảng kê hàng tồn kho, máy móc, thiết bị theo mẫu 01/BK-HTK."
+  },
+  {
+    "question": "Có thể nộp hồ sơ khai thuế hộ kinh doanh bằng phương thức điện tử ở đâu?",
+    "expected_answer": "Qua Cổng Dịch vụ công Quốc gia hoặc ứng dụng định danh quốc gia theo quy định về cơ chế một cửa.",
+    "expected_context": "Hướng dẫn thủ tục khai thuế cho phép thực hiện điện tử qua Cổng Dịch vụ công Quốc gia hoặc ứng dụng định danh quốc gia."
+  },
+  {
+    "question": "Mẫu thông báo thành lập, thay đổi, tạm ngừng hoặc chấm dứt địa điểm kinh doanh là mẫu nào?",
+    "expected_answer": "Mẫu số 01/TB-ĐĐKD.",
+    "expected_context": "Văn bản hợp nhất về thủ tục quản lý thuế quy định thông báo địa điểm kinh doanh theo mẫu 01/TB-ĐĐKD."
+  },
+  {
+    "question": "Thông báo thay đổi hoặc chấm dứt địa điểm kinh doanh được gửi đến cơ quan nào?",
+    "expected_answer": "Gửi đến cơ quan thuế quản lý trụ sở kinh doanh.",
+    "expected_context": "Bài viết về thủ tục quản lý thuế nêu thông báo địa điểm kinh doanh được gửi đến cơ quan thuế quản lý trụ sở kinh doanh."
+  },
+  {
+    "question": "Nghị định 254/2026/NĐ-CP về hóa đơn điện tử có hiệu lực từ ngày nào?",
+    "expected_answer": "Từ ngày 01/07/2026.",
+    "expected_context": "Nghị định 254/2026/NĐ-CP quy định về hóa đơn điện tử, chứng từ điện tử và có hiệu lực từ ngày 1/7/2026."
+  },
+  {
+    "question": "Nghị định 168/2025/NĐ-CP giao cơ quan đăng ký kinh doanh hộ kinh doanh ở cấp nào?",
+    "expected_answer": "Cơ quan đăng ký kinh doanh cấp xã.",
+    "expected_context": "Nghị định 168/2025/NĐ-CP quy định cơ quan đăng ký kinh doanh cấp xã xử lý đăng ký hộ kinh doanh."
+  },
+  {
+    "question": "Khi đã nộp thuế theo ngưỡng cũ nhưng doanh thu năm không quá 1 tỷ đồng thì khoản tiền đã nộp được xử lý thế nào?",
+    "expected_answer": "Tiền thuế đã nộp được xử lý theo Điều 12 Nghị định 68/2026/NĐ-CP về tiền thuế, tiền chậm nộp và tiền phạt nộp thừa.",
+    "expected_context": "Nghị định 141/2026/NĐ-CP nêu trường hợp doanh thu từ 01 tỷ đồng trở xuống đã kê khai nộp thuế thì xử lý tiền đã nộp theo Điều 12 Nghị định 68/2026/NĐ-CP."
+  }
+]

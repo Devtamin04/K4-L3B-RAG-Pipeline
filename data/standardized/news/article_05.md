@@ -1,0 +1,53 @@
+---
+title: "Quy định về hồ sơ, thủ tục quản lý thuế với hộ kinh doanh, cá nhân kinh doanh"
+source: "article_05.json"
+url: "https://xaydungchinhsach.chinhphu.vn/quy-dinh-ve-ho-so-thu-tuc-quan-ly-thue-voi-ho-kinh-doanh-ca-nhan-kinh-doanh-119260812153118737.htm"
+doc_type: "news"
+date_crawled: "2026-09-23T05:45:04.115289+00:00"
+---
+
+Văn bản hợp nhất số 24/2026/VBHN-TT-BTC hợp nhất các quy định tại Thông tư số 18/2026/TT-BTC ngày 05/3/2026 của Bộ trưởng Bộ Tài chính quy định về hồ sơ, thủ tục quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh; Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC và các quy định có liên quan tại Thông tư số 89/2026/TT-BTC ngày 30/6/2026 của Bộ trưởng Bộ Tài chính.
+
+Thông tư quy định chi tiết về hồ sơ, thủ tục thông báo doanh thu, kê khai thuế, nộp thuế, hoàn thuế, thông báo địa điểm kinh doanh, tạm ngừng, chấm dứt hoạt động kinh doanh đối với hộ kinh doanh, cá nhân kinh doanh theo quy định của Luật Quản lý thuế số 108/2025/QH15 và Nghị định số 68/2026/NĐ-CP của Chính phủ.
+
+## **Quy định về thông báo địa điểm kinh doanh**
+
+Theo Văn bản hợp nhất, hộ kinh doanh, cá nhân kinh doanh gửi Thông báo về việc thành lập địa điểm kinh doanh, thay đổi thông tin, tạm ngừng kinh doanh, chấm dứt hoạt động địa điểm kinh doanh đến cơ quan thuế quản lý trụ sở kinh doanh quy định tại điểm đ khoản 4 Điều 8 Nghị định số 68/2026/NĐ-CP theo Mẫu số 01/TB-ĐĐKD ban hành kèm theo Thông tư.
+
+Trên cơ sở thông báo của người nộp thuế, cơ quan thuế gửi thông báo cho người nộp thuế theo Mẫu số 02/TB-ĐĐKD theo quy định.
+
+## **Hồ sơ thông báo doanh thu, kê khai thuế**
+
+Văn bản hợp nhất quy định hồ sơ thông báo doanh thu, kê khai thuế phù hợp với từng phương pháp tính thuế của hộ kinh doanh, cá nhân kinh doanh.
+
+Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân, bao gồm cả trường hợp mới ra kinh doanh, thực hiện thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo Mẫu số 01/TKN-CNKD.
+
+Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế, hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là Tờ khai theo Mẫu số 01/CNKD.
+
+Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất. Hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác trong năm là Tờ khai theo Mẫu số 01/CNKD. Hồ sơ khai quyết toán thuế thu nhập cá nhân là Tờ khai quyết toán thuế thu nhập cá nhân theo Mẫu số 02/CNKD-TNCN-QTT.
+
+Bên cạnh đó, Văn bản hợp nhất quy định về việc thông báo số tài khoản, số hiệu ví điện tử đối với hộ kinh doanh, cá nhân kinh doanh thuộc các trường hợp quy định tại Nghị định số 68/2026/NĐ-CP.
+
+Theo đó, hộ kinh doanh, cá nhân kinh doanh đang hoạt động thuộc đối tượng quy định tại điểm b khoản 4 Điều 17 Nghị định số 68/2026/NĐ-CP gửi Thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK-STK ban hành kèm theo Thông tư này chậm nhất là ngày 20 tháng 4 năm 2026.
+
+Hộ kinh doanh, cá nhân kinh doanh đang hoạt động thuộc đối tượng quy định tại điểm a khoản 4 Điều 17 Nghị định số 68/2026/NĐ-CP gửi Thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Tờ khai thuế đầu tiên của năm 2026.
+
+Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh gửi Thông báo số tài khoản/số hiệu ví điện tử theo mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Thông báo doanh thu hoặc Tờ khai thuế đầu tiên của năm.
+
+Hộ kinh doanh, cá nhân kinh doanh khi thay đổi thông tin số tài khoản/số hiệu ví điện tử thì thông báo cho cơ quan thuế theo quy định của pháp luật quản lý thuế.
+
+## **Quy định về hoàn thuế nộp thừa**
+
+Đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân với doanh thu tính thuế, hồ sơ đề nghị hoàn thuế nộp thừa là Tờ khai thuế theo Mẫu số 01/TKN-CNKD.
+
+Đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân với thuế suất, hồ sơ đề nghị hoàn thuế nộp thừa là Tờ khai thuế theo Mẫu số 02/CNKD-TNCN-QTT.
+
+Cơ quan thuế thực hiện tiếp nhận, phân loại và giải quyết hồ sơ hoàn thuế nộp thừa theo quy định của pháp luật về quản lý thuế; ban hành Quyết định hoàn thuế hoặc Quyết định hoàn thuế kiêm bù trừ thu ngân sách nhà nước theo quy định.
+
+## **Quy định chuyển tiếp**
+
+Văn bản hợp nhất quy định cụ thể việc xử lý các trường hợp chuyển tiếp, nhằm bảo đảm việc thực hiện nghĩa vụ thuế của hộ kinh doanh, cá nhân kinh doanh được liên tục, thống nhất.
+
+Đối với trường hợp đã kê khai, nộp thuế theo hướng dẫn tại Thông tư số 40/2021/TT-BTC thì không điều chỉnh lại. Trường hợp chưa khai thuế thì thực hiện theo hồ sơ, thủ tục quy định tại Văn bản hợp nhất và không bị xử phạt.
+
+Văn bản hợp nhất số 24/2026/VBHN-TT-BTC là cơ sở để cơ quan thuế, hộ kinh doanh, cá nhân kinh doanh và các tổ chức, cá nhân có liên quan tra cứu, thực hiện thống nhất các quy định về hồ sơ, thủ tục quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh.

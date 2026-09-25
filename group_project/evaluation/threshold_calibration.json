@@ -1,0 +1,108 @@
+{
+  "selected": {
+    "threshold": 0.5727012753486633,
+    "balanced_accuracy": 1.0
+  },
+  "observations": [
+    {
+      "query": "Từ năm 2026, ngưỡng doanh thu năm không phải nộp thuế GTGT và thuế TNCN của hộ kinh doanh là bao nhiêu?",
+      "label": 1,
+      "score": 0.6773980259895325
+    },
+    {
+      "query": "Hộ kinh doanh có doanh thu năm trên 1 tỷ đồng phải dùng loại hóa đơn nào?",
+      "label": 1,
+      "score": 0.7728488445281982
+    },
+    {
+      "query": "Hộ có doanh thu dưới 1 tỷ đồng có được tự nguyện dùng hóa đơn điện tử không?",
+      "label": 1,
+      "score": 0.7412914037704468
+    },
+    {
+      "query": "Hộ đang hoạt động mà doanh thu lũy kế trong năm vượt 1 tỷ đồng phải đăng ký hóa đơn điện tử trong bao lâu?",
+      "label": 1,
+      "score": 0.7832048535346985
+    },
+    {
+      "query": "Nếu hộ có nhiều địa điểm kinh doanh thì ghi thông tin thuế trên hóa đơn ra sao?",
+      "label": 1,
+      "score": 0.7673574686050415
+    },
+    {
+      "query": "Mẫu tờ khai chính dành cho hộ nộp thuế theo phương pháp thuế suất nhân doanh thu là mẫu nào?",
+      "label": 1,
+      "score": 0.6765158772468567
+    },
+    {
+      "query": "Hộ không chịu thuế GTGT và không phải nộp thuế TNCN thông báo doanh thu bằng mẫu nào?",
+      "label": 1,
+      "score": 0.7090805768966675
+    },
+    {
+      "query": "Mẫu thông báo tài khoản ngân hàng hoặc ví điện tử của hộ kinh doanh là mẫu nào?",
+      "label": 1,
+      "score": 0.7369340658187866
+    },
+    {
+      "query": "Hộ tính thuế theo phương pháp thu nhập tính thuế nhân thuế suất phải lập bảng kê tài sản nào khi chuyển đổi?",
+      "label": 1,
+      "score": 0.6502957344055176
+    },
+    {
+      "query": "Có thể nộp hồ sơ khai thuế hộ kinh doanh bằng phương thức điện tử ở đâu?",
+      "label": 1,
+      "score": 0.6695507764816284
+    },
+    {
+      "query": "Mẫu thông báo thành lập, thay đổi, tạm ngừng hoặc chấm dứt địa điểm kinh doanh là mẫu nào?",
+      "label": 1,
+      "score": 0.6617525815963745
+    },
+    {
+      "query": "Thông báo thay đổi hoặc chấm dứt địa điểm kinh doanh được gửi đến cơ quan nào?",
+      "label": 1,
+      "score": 0.735028862953186
+    },
+    {
+      "query": "Nghị định 254/2026/NĐ-CP về hóa đơn điện tử có hiệu lực từ ngày nào?",
+      "label": 1,
+      "score": 0.7739124894142151
+    },
+    {
+      "query": "Nghị định 168/2025/NĐ-CP giao cơ quan đăng ký kinh doanh hộ kinh doanh ở cấp nào?",
+      "label": 1,
+      "score": 0.663680374622345
+    },
+    {
+      "query": "Khi đã nộp thuế theo ngưỡng cũ nhưng doanh thu năm không quá 1 tỷ đồng thì khoản tiền đã nộp được xử lý thế nào?",
+      "label": 1,
+      "score": 0.7139979600906372
+    },
+    {
+      "query": "Thời tiết Hà Nội ngày mai thế nào?",
+      "label": 0,
+      "score": 0.41141408681869507
+    },
+    {
+      "query": "Viết một bài thơ về mùa thu.",
+      "label": 0,
+      "score": 0.4185129404067993
+    },
+    {
+      "query": "Ai vô địch World Cup gần nhất?",
+      "label": 0,
+      "score": 0.36989545822143555
+    },
+    {
+      "query": "Cách điều trị bệnh đau dạ dày?",
+      "label": 0,
+      "score": 0.41883230209350586
+    },
+    {
+      "query": "Giá Bitcoin hôm nay là bao nhiêu?",
+      "label": 0,
+      "score": 0.4951068162918091
+    }
+  ]
+}

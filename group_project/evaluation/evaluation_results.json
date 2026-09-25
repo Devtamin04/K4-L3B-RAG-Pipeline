@@ -1,0 +1,857 @@
+{
+  "0": {
+    "question": "Từ năm 2026, ngưỡng doanh thu năm không phải nộp thuế GTGT và thuế TNCN của hộ kinh doanh là bao nhiêu?",
+    "dense": {
+      "response": "Từ ngày 01/01/2026, mức doanh thu hàng năm mà hộ kinh doanh (cũng như cá nhân kinh doanh) **không phải nộp thuế Giá trị gia tăng (GTGT) và không phải nộp thuế Thu nhập cá nhân (TNCN)** được nâng lên **1 tỷ đồng**.  \n\n- Nghị định 141/2026/NĐ‑CP quy định “Nâng ngưỡng chịu thuế với hộ kinh doanh lên 01 tỷ đồng/năm” [Document 3].  \n- Theo Bộ Tài chính, “áp dụng mức doanh thu năm không phải nộp thuế thu nhập cá nhân của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm đồng thời nâng mức doanh thu không chịu thuế giá trị gia tăng của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm” [Document 2].\n\nVì vậy, kể từ năm 2026, **ngưỡng doanh thu năm không phải nộp thuế GTGT và thuế TNCN của hộ kinh doanh là 1 tỷ đồng**.",
+      "contexts": [
+        "Theo số liệu tính toán của cơ quan thuế, hiện nay, số hộ, cá nhân có doanh thu dưới 01 tỷ đồng là khoảng 2.556.042 hộ, cá nhân. Với quy định mới này thì dự kiến số giảm thu ngân sách nhà nước là khoảng 16.650 tỷ đồng so với năm 2025 (thu theo chế độ thuế khoán và mức ngưỡng doanh thu không phải nộp thuế là 100 triệu đồng/năm) và giảm khoảng 4.850 tỷ đồng so với chính sách hiện hành đã điều chỉnh ngưỡng doanh thu miễn thuế lên 500 triệu/năm.",
+        "Bộ Tài chính cho biết, việc áp dụng mức doanh thu năm không phải nộp thuế thu nhập cá nhân của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm đồng thời nâng mức doanh thu không chịu thuế giá trị gia tăng của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm thống nhất với quy định hộ kinh doanh, cá nhân kinh doanh có mức doanh thu hằng năm từ 01 tỷ đồng trở lên sử dụng hóa đơn điện tử khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế.",
+        "Chính phủ ban hành Nghị định số 141/2026/NĐ-CP ngày 29/4/2026 sửa đổi, bổ sung một số điều của Nghị định số 68/2026/NĐ-CP quy định về chính sách thuế đối với hộ kinh doanh, cá nhân kinh doanh và Nghị định số 320/2025/NĐ-CP quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập doanh nghiệp. Nghị định này có hiệu lực thi hành từ ngày 01/01/2026.\n\n## Nâng ngưỡng chịu thuế với hộ kinh doanh lên 01 tỷ đồng/năm",
+        "Theo Bộ Tài chính, để đồng bộ với ngưỡng doanh thu không phải nộp thuế của hộ, cá nhân kinh doanh thì ngưỡng thu nhập được miễn thuế của doanh nghiệp nhỏ là 01 tỷ đồng/năm, qua đó đảm bảo công bằng trong chính sách, giúp cho người nộp thuế lựa chọn mô hình kinh doanh phù hợp, góp phần khuyến khích các hộ kinh doanh chuyển đổi lên mô hình doanh nghiệp với chế độ quản trị chuyên nghiệp và có nhiều điều kiện để nâng cao hơn nữa quy mô, hiệu quả kinh doanh.",
+        "\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n***Ghi chú:***\n\n*TNCN: Thu nhập cá nhân*\n\n*GTGT: Giá trị gia tăng*\n\n*TTĐB: Tiêu thụ đặc biệt*\n\n*BVMT: Bảo vệ môi trường*\n\n*- Chỉ tiêu [01a]: dành cho hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 50 tỷ đồng.*\n\n*- Chỉ tiêu [01b]: dành cho hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng đến 50 tỷ đồng.*"
+      ],
+      "sources": [
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "article_03.json"
+      ],
+      "retrieval_latency_seconds": 9.284153048007283,
+      "generation_latency_seconds": 2.7809975419950206,
+      "best_dense_score": 0.6773980259895325,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.833333,
+        "answer_relevance": 0.801081,
+        "context_recall": 1.0,
+        "context_precision": 0.638889
+      }
+    },
+    "hybrid": {
+      "response": "Từ ngày 01/01/2026, mức doanh thu hằng năm mà hộ kinh doanh (cá nhân kinh doanh) **không phải nộp thuế Giá trị gia tăng (GTGT) và không phải nộp thuế Thu nhập cá nhân (TNCN)** được nâng lên **1 tỷ đồng (01 tỷ đồng) mỗi năm**【Document 5】.  \n\nViệc này được nêu rõ trong thông tin của Bộ Tài chính: “việc áp dụng mức doanh thu năm không phải nộp thuế thu nhập cá nhân của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm đồng thời nâng mức doanh thu không chịu thuế giá trị gia tăng của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm”【Document 2】.  \n\nDo đó, ngưỡng miễn thuế GTGT và TNCN cho hộ kinh doanh bắt đầu từ năm 2026 là **01 tỷ đồng/năm**.",
+      "contexts": [
+        "Theo số liệu tính toán của cơ quan thuế, hiện nay, số hộ, cá nhân có doanh thu dưới 01 tỷ đồng là khoảng 2.556.042 hộ, cá nhân. Với quy định mới này thì dự kiến số giảm thu ngân sách nhà nước là khoảng 16.650 tỷ đồng so với năm 2025 (thu theo chế độ thuế khoán và mức ngưỡng doanh thu không phải nộp thuế là 100 triệu đồng/năm) và giảm khoảng 4.850 tỷ đồng so với chính sách hiện hành đã điều chỉnh ngưỡng doanh thu miễn thuế lên 500 triệu/năm.",
+        "Bộ Tài chính cho biết, việc áp dụng mức doanh thu năm không phải nộp thuế thu nhập cá nhân của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm đồng thời nâng mức doanh thu không chịu thuế giá trị gia tăng của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm thống nhất với quy định hộ kinh doanh, cá nhân kinh doanh có mức doanh thu hằng năm từ 01 tỷ đồng trở lên sử dụng hóa đơn điện tử khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế.",
+        "Theo Bộ Tài chính, để đồng bộ với ngưỡng doanh thu không phải nộp thuế của hộ, cá nhân kinh doanh thì ngưỡng thu nhập được miễn thuế của doanh nghiệp nhỏ là 01 tỷ đồng/năm, qua đó đảm bảo công bằng trong chính sách, giúp cho người nộp thuế lựa chọn mô hình kinh doanh phù hợp, góp phần khuyến khích các hộ kinh doanh chuyển đổi lên mô hình doanh nghiệp với chế độ quản trị chuyên nghiệp và có nhiều điều kiện để nâng cao hơn nữa quy mô, hiệu quả kinh doanh.",
+        "Hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử trong thời gian 30 ngày kể từ ngày cuối cùng của kỳ tính thuế có doanh thu lũy kế trên 01 tỷ đồng.\n\n## Ngưỡng thu nhập được miễn thuế của doanh nghiệp là 01 tỷ đồng/năm\n\nNghị định số 141/2026/NĐ-CP bổ sung khoản 15 Điều 4 Nghị định số 320/2025/NĐ-CP về thu nhập được miễn thuế thu nhập doanh nghiệp.",
+        "Chính phủ ban hành Nghị định số 141/2026/NĐ-CP ngày 29/4/2026 sửa đổi, bổ sung một số điều của Nghị định số 68/2026/NĐ-CP quy định về chính sách thuế đối với hộ kinh doanh, cá nhân kinh doanh và Nghị định số 320/2025/NĐ-CP quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập doanh nghiệp. Nghị định này có hiệu lực thi hành từ ngày 01/01/2026.\n\n## Nâng ngưỡng chịu thuế với hộ kinh doanh lên 01 tỷ đồng/năm"
+      ],
+      "sources": [
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf"
+      ],
+      "retrieval_latency_seconds": 10.729694683017442,
+      "generation_latency_seconds": 2.3551837370032445,
+      "best_dense_score": 0.6773980259895325,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.5,
+        "answer_relevance": 0.971916,
+        "context_recall": 1.0,
+        "context_precision": 0.679167
+      }
+    }
+  },
+  "1": {
+    "question": "Hộ kinh doanh có doanh thu năm trên 1 tỷ đồng phải dùng loại hóa đơn nào?",
+    "dense": {
+      "response": "Hộ kinh doanh có doanh thu năm trên 1 tỷ đồng phải **sử dụng hóa đơn điện tử** có **mã của cơ quan thuế**, trong đó hóa đơn điện tử được khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.  \n\n- Nghị định 141/2026/NĐ‑CP quy định “Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế” [Document 1].  \n- Cũng theo cùng nghị định, “hộ kinh doanh, cá nhân kinh doanh có mức doanh thu hằng năm từ 01 tỷ đồng trở lên sử dụng hóa đơn điện tử khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế” [Document 5].  \n- Thêm vào, “hộ kinh doanh, cá nhân kinh doanh … trong năm tính thuế có doanh thu trên 01 tỷ đồng trở lên thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế” [Document 2].\n\n**Kết luận:** Hộ kinh doanh có doanh thu năm > 1 tỷ đồng phải dùng **hóa đơn điện tử có mã cơ quan thuế**, được tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+      "contexts": [
+        "### Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng phải áp dụng hóa đơn điện tử\n\nNghị định số 141/2026/NĐ-CP cũng sửa đổi, bổ sung khoản 5 Điều 8 Nghị định số 68/2026/NĐ-CP (sử dụng hóa đơn điện tử) như sau:\n\nHộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh tại Điều 9 Nghị định này hoặc hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trước chưa trên 01 tỷ đồng (trừ trường hợp đã đăng ký sử dụng hóa đơn điện tử) nhưng trong năm tính thuế có doanh thu trên 01 tỷ đồng trở lên thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Trường hợp hộ kinh doanh, cá nhân kinh doanh có nhiều địa điểm kinh doanh thì sử dụng mã số thuế của hộ kinh doanh, cá nhân kinh doanh cho tất cả các cửa hàng và phải ghi rõ mã địa điểm kinh doanh trên hóa đơn.\n\nTrường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống đáp ứng điều kiện và có nhu cầu sử dụng hóa đơn điện tử thì đăng ký sử dụng hóa đơn điện tử có mã của cơ quan thuế hoặc hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Ngày 23/7/2026, Cục Thuế ban hành Công văn số 5131/CT-CS trả lời kiến nghị của Thuế tỉnh Nghệ An về việc sử dụng hóa đơn điện tử (HĐĐT) đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm dưới 01 tỷ đồng.\n\nTheo đó, Cục Thuế cho biết, căn cứ quy định tại điểm b khoản 2 Điều 1 Nghị định số 141/2026/NĐ-CP ngày 29/4/2026 của Chính phủ quy định:",
+        "Bộ Tài chính cho biết, việc áp dụng mức doanh thu năm không phải nộp thuế thu nhập cá nhân của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm đồng thời nâng mức doanh thu không chịu thuế giá trị gia tăng của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm thống nhất với quy định hộ kinh doanh, cá nhân kinh doanh có mức doanh thu hằng năm từ 01 tỷ đồng trở lên sử dụng hóa đơn điện tử khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế."
+      ],
+      "sources": [
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "article_04.json",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf"
+      ],
+      "retrieval_latency_seconds": 0.22135503200115636,
+      "generation_latency_seconds": 4.152716094016796,
+      "best_dense_score": 0.7728488445281982,
+      "error": null,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.691163,
+        "context_recall": 1.0,
+        "context_precision": 0.8875
+      }
+    },
+    "hybrid": {
+      "response": "Hộ kinh doanh (cá nhân kinh doanh) có doanh thu năm **trên 01 tỷ đồng** phải **áp dụng hóa đơn điện tử** có mã của cơ quan thuế và được khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.  \n\n- Nghị định 141/2026/NĐ‑CP sửa đổi khoản 5 Điều 8 của Nghị định 68/2026/NĐ‑CP quy định “hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế” [Document 1].  \n- Bộ Tài chính cũng xác nhận “hộ, cá nhân kinh doanh có mức doanh thu hằng năm từ 01 tỷ đồng trở lên sử dụng hóa đơn điện tử khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế” [Document 3].  \n- Khi doanh thu năm trước chưa trên 01 tỷ đồng nhưng trong năm tính thuế vượt mức 01 tỷ đồng, cũng phải áp dụng cùng loại hóa đơn điện tử [Document 2].  \n\nVì vậy, **loại hóa đơn bắt buộc** cho hộ kinh doanh có doanh thu trên 1 tỷ đồng là **hóa đơn điện tử (có mã của cơ quan thuế, khởi tạo từ máy tính tiền kết nối dữ liệu với cơ quan thuế)**.",
+      "contexts": [
+        "### Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng phải áp dụng hóa đơn điện tử\n\nNghị định số 141/2026/NĐ-CP cũng sửa đổi, bổ sung khoản 5 Điều 8 Nghị định số 68/2026/NĐ-CP (sử dụng hóa đơn điện tử) như sau:\n\nHộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh tại Điều 9 Nghị định này hoặc hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trước chưa trên 01 tỷ đồng (trừ trường hợp đã đăng ký sử dụng hóa đơn điện tử) nhưng trong năm tính thuế có doanh thu trên 01 tỷ đồng trở lên thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Bộ Tài chính cho biết, việc áp dụng mức doanh thu năm không phải nộp thuế thu nhập cá nhân của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm đồng thời nâng mức doanh thu không chịu thuế giá trị gia tăng của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm thống nhất với quy định hộ kinh doanh, cá nhân kinh doanh có mức doanh thu hằng năm từ 01 tỷ đồng trở lên sử dụng hóa đơn điện tử khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế.",
+        "**THÔNG BÁO DOANH THU/TỜ KHAI THUẾ NĂM**\n\n*(Áp dụng đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống; hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế; cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm)*\n\n□ Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống",
+        "Trường hợp hộ kinh doanh, cá nhân kinh doanh có nhiều địa điểm kinh doanh thì sử dụng mã số thuế của hộ kinh doanh, cá nhân kinh doanh cho tất cả các cửa hàng và phải ghi rõ mã địa điểm kinh doanh trên hóa đơn.\n\nTrường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống đáp ứng điều kiện và có nhu cầu sử dụng hóa đơn điện tử thì đăng ký sử dụng hóa đơn điện tử có mã của cơ quan thuế hoặc hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế."
+      ],
+      "sources": [
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "article_03.json",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf"
+      ],
+      "retrieval_latency_seconds": 1.4103815180133097,
+      "generation_latency_seconds": 3.888999344781041e-06,
+      "best_dense_score": 0.7728488445281982,
+      "error": null,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.752899,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    }
+  },
+  "2": {
+    "question": "Hộ có doanh thu dưới 1 tỷ đồng có được tự nguyện dùng hóa đơn điện tử không?",
+    "dense": {
+      "response": "Có. Đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm **dưới 1 tỷ đồng**, việc sử dụng hóa đơn điện tử **không bắt buộc**; tuy nhiên họ **có thể tự nguyện đăng ký và sử dụng** nếu muốn.\n\n* Theo Document 3, quy định cho biết: “Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh… hoặc hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trước chưa trên 01 tỷ đồng (trừ trường hợp đã đăng ký sử dụng hóa đơn điện tử) … thì phải áp dụng hóa đơn điện tử …” → câu “trừ trường hợp đã đăng ký sử dụng hóa đơn điện tử” cho phép các hộ có doanh thu < 1 tỷ đồng tự nguyện đăng ký sử dụng hóa đơn điện tử. [Document 3]\n\n* Document 1 (bài hướng dẫn ngày 23/7/2026) cũng đưa ra “Hướng dẫn sử dụng hóa đơn điện tử với hộ kinh doanh có doanh thu dưới 1 tỷ đồng/năm”, chứng tỏ việc sử dụng điện tử cho nhóm này được khuyến nghị và cho phép, dù không bắt buộc. [Document 1]\n\nVì vậy, hộ kinh doanh có doanh thu dưới 1 tỷ đồng **được phép** tự nguyện sử dụng hóa đơn điện tử, nhưng không bị bắt buộc phải áp dụng như các hộ có doanh thu trên 1 tỷ đồng. (Thông tin chỉ mang tính tham khảo, không thay thế tư vấn pháp lý chính thức.)",
+      "contexts": [
+        "Ngày 23/7/2026, Cục Thuế ban hành Công văn số 5131/CT-CS trả lời kiến nghị của Thuế tỉnh Nghệ An về việc sử dụng hóa đơn điện tử (HĐĐT) đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm dưới 01 tỷ đồng.\n\nTheo đó, Cục Thuế cho biết, căn cứ quy định tại điểm b khoản 2 Điều 1 Nghị định số 141/2026/NĐ-CP ngày 29/4/2026 của Chính phủ quy định:",
+        "### Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng phải áp dụng hóa đơn điện tử\n\nNghị định số 141/2026/NĐ-CP cũng sửa đổi, bổ sung khoản 5 Điều 8 Nghị định số 68/2026/NĐ-CP (sử dụng hóa đơn điện tử) như sau:\n\nHộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh tại Điều 9 Nghị định này hoặc hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trước chưa trên 01 tỷ đồng (trừ trường hợp đã đăng ký sử dụng hóa đơn điện tử) nhưng trong năm tính thuế có doanh thu trên 01 tỷ đồng trở lên thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử trong thời gian 30 ngày kể từ ngày cuối cùng của kỳ tính thuế có doanh thu lũy kế trên 01 tỷ đồng.\n\n## Ngưỡng thu nhập được miễn thuế của doanh nghiệp là 01 tỷ đồng/năm\n\nNghị định số 141/2026/NĐ-CP bổ sung khoản 15 Điều 4 Nghị định số 320/2025/NĐ-CP về thu nhập được miễn thuế thu nhập doanh nghiệp.",
+        "Bộ Tài chính cho biết, việc áp dụng mức doanh thu năm không phải nộp thuế thu nhập cá nhân của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm đồng thời nâng mức doanh thu không chịu thuế giá trị gia tăng của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm thống nhất với quy định hộ kinh doanh, cá nhân kinh doanh có mức doanh thu hằng năm từ 01 tỷ đồng trở lên sử dụng hóa đơn điện tử khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế."
+      ],
+      "sources": [
+        "article_04.json",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf"
+      ],
+      "retrieval_latency_seconds": 0.1693757720058784,
+      "generation_latency_seconds": 3.7586967940151226,
+      "best_dense_score": 0.7412914037704468,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.214286,
+        "answer_relevance": 0.905897,
+        "context_recall": 0.0,
+        "context_precision": 1.0
+      }
+    },
+    "hybrid": {
+      "response": "Theo các quy định được nêu trong Nghị định 141/2026/NĐ‑CP:\n\n* **Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 1 tỷ đồng** phải áp dụng hóa đơn điện tử có mã của cơ quan thuế và khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế. [Document 2]  \n* **Nếu doanh thu năm trước chưa đạt 1 tỷ đồng** (và chưa đăng ký sử dụng hóa đơn điện tử) nhưng trong năm tính thuế doanh thu vượt 1 tỷ đồng, thì cũng phải áp dụng hóa đơn điện tử. [Document 1]  \n* **Hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử** phải thực hiện việc đăng ký trong vòng 30 ngày kể từ ngày cuối cùng của kỳ tính thuế có doanh thu lũy kế trên 1 tỷ đồng. [Document 5]  \n\nCác văn bản trên chỉ quy định **bắt buộc** việc sử dụng hóa đơn điện tử khi doanh thu đạt hoặc vượt 1 tỷ đồng. Đối với hộ kinh doanh có doanh thu **dưới 1 tỷ đồng**, không có quy định bắt buộc phải dùng hóa đơn điện tử và cũng không có trong các đoạn trích được cung cấp một quy định cho phép **tự nguyện** sử dụng hóa đơn điện tử.\n\nVì vậy, dựa trên các tài liệu đã trích dẫn, **hộ kinh doanh có doanh thu dưới 1 tỷ đồng không bị bắt buộc phải dùng hóa đơn điện tử**, nhưng không có bằng chứng trong các nguồn trên để khẳng định họ được phép tự nguyện sử dụng hóa đơn điện tử. Nếu muốn tự nguyện áp dụng, cần tham khảo thêm các hướng dẫn chi tiết hoặc quyết định của cơ quan thuế không nằm trong phạm vi các tài liệu đã cung cấp.  \n\n*Lưu ý: Câu trả lời chỉ mang tính tham khảo và không thay thế tư vấn pháp lý chính thức.*",
+      "contexts": [
+        "Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh tại Điều 9 Nghị định này hoặc hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trước chưa trên 01 tỷ đồng (trừ trường hợp đã đăng ký sử dụng hóa đơn điện tử) nhưng trong năm tính thuế có doanh thu trên 01 tỷ đồng trở lên thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "### Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng phải áp dụng hóa đơn điện tử\n\nNghị định số 141/2026/NĐ-CP cũng sửa đổi, bổ sung khoản 5 Điều 8 Nghị định số 68/2026/NĐ-CP (sử dụng hóa đơn điện tử) như sau:\n\nHộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Ngày 23/7/2026, Cục Thuế ban hành Công văn số 5131/CT-CS trả lời kiến nghị của Thuế tỉnh Nghệ An về việc sử dụng hóa đơn điện tử (HĐĐT) đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm dưới 01 tỷ đồng.\n\nTheo đó, Cục Thuế cho biết, căn cứ quy định tại điểm b khoản 2 Điều 1 Nghị định số 141/2026/NĐ-CP ngày 29/4/2026 của Chính phủ quy định:",
+        "Bộ Tài chính cho biết, việc áp dụng mức doanh thu năm không phải nộp thuế thu nhập cá nhân của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm đồng thời nâng mức doanh thu không chịu thuế giá trị gia tăng của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm thống nhất với quy định hộ kinh doanh, cá nhân kinh doanh có mức doanh thu hằng năm từ 01 tỷ đồng trở lên sử dụng hóa đơn điện tử khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế.",
+        "Hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử trong thời gian 30 ngày kể từ ngày cuối cùng của kỳ tính thuế có doanh thu lũy kế trên 01 tỷ đồng.\n\n## Ngưỡng thu nhập được miễn thuế của doanh nghiệp là 01 tỷ đồng/năm\n\nNghị định số 141/2026/NĐ-CP bổ sung khoản 15 Điều 4 Nghị định số 320/2025/NĐ-CP về thu nhập được miễn thuế thu nhập doanh nghiệp."
+      ],
+      "sources": [
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "article_04.json",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf"
+      ],
+      "retrieval_latency_seconds": 1.363211023999611,
+      "generation_latency_seconds": 5.58306283201091,
+      "best_dense_score": 0.7412914037704468,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.833333,
+        "answer_relevance": 0.709633,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    }
+  },
+  "3": {
+    "question": "Hộ đang hoạt động mà doanh thu lũy kế trong năm vượt 1 tỷ đồng phải đăng ký hóa đơn điện tử trong bao lâu?",
+    "dense": {
+      "response": "Hộ kinh doanh, cá nhân kinh doanh khi doanh thu lũy kế trong năm vượt 1 tỷ đồng phải **đăng ký sử dụng hóa đơn điện tử trong vòng 30 ngày kể từ ngày cuối cùng của kỳ tính thuế có doanh thu lũy kế trên 1 tỷ đồng**【Document 1】.  \n\n*Lưu ý: Thông tin trên chỉ mang tính tham khảo, không thay thế tư vấn pháp lý từ cơ quan có thẩm quyền.*",
+      "contexts": [
+        "Hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử trong thời gian 30 ngày kể từ ngày cuối cùng của kỳ tính thuế có doanh thu lũy kế trên 01 tỷ đồng.\n\n## Ngưỡng thu nhập được miễn thuế của doanh nghiệp là 01 tỷ đồng/năm\n\nNghị định số 141/2026/NĐ-CP bổ sung khoản 15 Điều 4 Nghị định số 320/2025/NĐ-CP về thu nhập được miễn thuế thu nhập doanh nghiệp.",
+        "### Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng phải áp dụng hóa đơn điện tử\n\nNghị định số 141/2026/NĐ-CP cũng sửa đổi, bổ sung khoản 5 Điều 8 Nghị định số 68/2026/NĐ-CP (sử dụng hóa đơn điện tử) như sau:\n\nHộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh tại Điều 9 Nghị định này hoặc hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trước chưa trên 01 tỷ đồng (trừ trường hợp đã đăng ký sử dụng hóa đơn điện tử) nhưng trong năm tính thuế có doanh thu trên 01 tỷ đồng trở lên thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Bộ Tài chính cho biết, việc áp dụng mức doanh thu năm không phải nộp thuế thu nhập cá nhân của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm đồng thời nâng mức doanh thu không chịu thuế giá trị gia tăng của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm thống nhất với quy định hộ kinh doanh, cá nhân kinh doanh có mức doanh thu hằng năm từ 01 tỷ đồng trở lên sử dụng hóa đơn điện tử khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế.",
+        "Bên cạnh đó, theo điểm d, khoản 1, Điều 6 Nghị định số 254/2026/NĐ-CP ngày 30/6/2026 của Chính phủ quy định chi tiết và tổ chức thi hành Luật Quản lý thuế số 108/2025/QH15 về HĐĐT, chứng từ điện tử quy định: *\"d) Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng hoặc hộ kinh doanh, cá nhân kinh doanh bán tài sản phải đăng ký quyền sở hữu, quyền sử dụng thì phải áp dụng HĐĐT có mã của cơ quan thuế, HĐĐT khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.*"
+      ],
+      "sources": [
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "article_04.json"
+      ],
+      "retrieval_latency_seconds": 0.21394657000200823,
+      "generation_latency_seconds": 1.8801135559915565,
+      "best_dense_score": 0.7832048535346985,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.0,
+        "answer_relevance": 0.75003,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    "hybrid": {
+      "response": "Hộ kinh doanh, cá nhân kinh doanh khi doanh thu lũy kế trong năm vượt 1 tỷ đồng phải **đăng ký sử dụng hóa đơn điện tử trong vòng 30 ngày kể từ ngày cuối cùng của kỳ tính thuế có doanh thu lũy kế trên 1 tỷ đồng**【Document 1】.  \n\n*Lưu ý: Câu trả lời chỉ mang tính tham khảo và không thay thế tư vấn của cơ quan có thẩm quyền.*",
+      "contexts": [
+        "Hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử trong thời gian 30 ngày kể từ ngày cuối cùng của kỳ tính thuế có doanh thu lũy kế trên 01 tỷ đồng.\n\n## Ngưỡng thu nhập được miễn thuế của doanh nghiệp là 01 tỷ đồng/năm\n\nNghị định số 141/2026/NĐ-CP bổ sung khoản 15 Điều 4 Nghị định số 320/2025/NĐ-CP về thu nhập được miễn thuế thu nhập doanh nghiệp.",
+        "### Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng phải áp dụng hóa đơn điện tử\n\nNghị định số 141/2026/NĐ-CP cũng sửa đổi, bổ sung khoản 5 Điều 8 Nghị định số 68/2026/NĐ-CP (sử dụng hóa đơn điện tử) như sau:\n\nHộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Bộ Tài chính cho biết, việc áp dụng mức doanh thu năm không phải nộp thuế thu nhập cá nhân của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm đồng thời nâng mức doanh thu không chịu thuế giá trị gia tăng của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm thống nhất với quy định hộ kinh doanh, cá nhân kinh doanh có mức doanh thu hằng năm từ 01 tỷ đồng trở lên sử dụng hóa đơn điện tử khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế.",
+        "Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh tại Điều 9 Nghị định này hoặc hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trước chưa trên 01 tỷ đồng (trừ trường hợp đã đăng ký sử dụng hóa đơn điện tử) nhưng trong năm tính thuế có doanh thu trên 01 tỷ đồng trở lên thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Trường hợp hộ kinh doanh, cá nhân kinh doanh có nhiều địa điểm kinh doanh thì sử dụng mã số thuế của hộ kinh doanh, cá nhân kinh doanh cho tất cả các cửa hàng và phải ghi rõ mã địa điểm kinh doanh trên hóa đơn.\n\nTrường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống đáp ứng điều kiện và có nhu cầu sử dụng hóa đơn điện tử thì đăng ký sử dụng hóa đơn điện tử có mã của cơ quan thuế hoặc hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế."
+      ],
+      "sources": [
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf"
+      ],
+      "retrieval_latency_seconds": 1.3731835430080537,
+      "generation_latency_seconds": 1.4711690089898184,
+      "best_dense_score": 0.7832048535346985,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.5,
+        "answer_relevance": 0.902479,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    }
+  },
+  "4": {
+    "question": "Nếu hộ có nhiều địa điểm kinh doanh thì ghi thông tin thuế trên hóa đơn ra sao?",
+    "dense": {
+      "response": "Khi một hộ kinh doanh (hoặc cá nhân kinh doanh) có nhiều địa điểm kinh doanh, **trên hoá đơn** phải:\n\n* **Sử dụng cùng một mã số thuế** của hộ kinh doanh (hoặc cá nhân kinh doanh) cho **tất cả các cửa hàng**;  \n* **Ghi rõ mã địa điểm kinh doanh** (mã cửa hàng, chi nhánh…) **cùng với các thông tin khác** của hoá đơn, để phân biệt từng địa điểm.\n\n> “Trường hợp hộ kinh doanh, cá nhân kinh doanh có nhiều địa điểm kinh doanh thì sử dụng mã số thuế của hộ kinh doanh, cá nhân kinh doanh cho tất cả các cửa hàng và phải ghi rõ mã địa điểm kinh doanh trên hóa đơn.” [Document 1]\n\nNgoài ra, khi kê khai thuế, hộ kinh doanh cũng phải khai báo doanh thu và các khoản thuế **theo từng địa điểm** để cơ quan thuế có thể đối chiếu, nhưng trên hoá đơn chỉ cần dùng mã số thuế chung và bổ sung mã địa điểm kinh doanh. [Document 4]  \n\n**Lưu ý:** Thông tin trên chỉ mang tính tham khảo; để áp dụng chính xác cần tham khảo hướng dẫn chi tiết của cơ quan thuế hoặc tư vấn pháp lý có thẩm quyền.",
+      "contexts": [
+        "Trường hợp hộ kinh doanh, cá nhân kinh doanh có nhiều địa điểm kinh doanh thì sử dụng mã số thuế của hộ kinh doanh, cá nhân kinh doanh cho tất cả các cửa hàng và phải ghi rõ mã địa điểm kinh doanh trên hóa đơn.\n\nTrường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống đáp ứng điều kiện và có nhu cầu sử dụng hóa đơn điện tử thì đăng ký sử dụng hóa đơn điện tử có mã của cơ quan thuế hoặc hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Hóa đơn phải có các nội dung sau:\n\na) Tên hóa đơn, ký hiệu hóa đơn, ký hiệu mẫu số hóa đơn;\n\nb) Số hóa đơn;\n\nc) Tên, địa chỉ, mã số thuế của người bán;\n\nd) Tên, địa chỉ, mã số thuế hoặc mã số đơn vị có quan hệ với ngân sách hoặc số định danh cá nhân của người mua;",
+        "Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh tại Điều 9 Nghị định này hoặc hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trước chưa trên 01 tỷ đồng (trừ trường hợp đã đăng ký sử dụng hóa đơn điện tử) nhưng trong năm tính thuế có doanh thu trên 01 tỷ đồng trở lên thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "*- Trường hợp hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế thì hộ kinh doanh, cá nhân kinh doanh kê khai doanh thu và số thuế giá trị gia tăng, thuế thu nhập cá nhân phải nộp theo từng địa điểm kinh doanh.*",
+        "Người bán hàng hóa, cung cấp dịch vụ và tổ chức thu thuế, phí, lệ phí có trách nhiệm thỏa thuận về đơn vị chịu trách nhiệm lập hóa đơn điện tử tích hợp cho khách hàng và phải thông báo đến cơ quan thuế quản lý trực tiếp theo mẫu do Bộ trưởng Bộ Tài chính quy định. Việc kê khai doanh thu của người bán hàng hóa, cung cấp dịch vụ và việc kê khai thuế, phí, lệ phí thực hiện theo quy định của pháp luật quản lý thuế.\n\n## Quy định về nội dung hóa đơn điện tử\n\nHóa đơn phải có các nội dung sau:"
+      ],
+      "sources": [
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "254-2026-ND-CP-hoa-don-dien-tu.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "article_03.json",
+        "254-2026-ND-CP-hoa-don-dien-tu.pdf"
+      ],
+      "retrieval_latency_seconds": 0.15179325500503182,
+      "generation_latency_seconds": 4.303853759978665,
+      "best_dense_score": 0.7673574686050415,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.6,
+        "answer_relevance": 0.894458,
+        "context_recall": 1.0,
+        "context_precision": 0.75
+      }
+    },
+    "hybrid": {
+      "response": "Khi một hộ kinh doanh (hoặc cá nhân kinh doanh) có nhiều địa điểm kinh doanh, **trên hoá đơn** phải:\n\n* **Sử dụng cùng một mã số thuế** của hộ kinh doanh (hoặc cá nhân kinh doanh) cho **tất cả các cửa hàng**;  \n* **Ghi rõ mã địa điểm kinh doanh** (mã của từng chi nhánh, cửa hàng) để phân biệt nơi bán hàng.\n\nĐiều này đáp ứng yêu cầu rằng hoá đơn phải có “Tên, địa chỉ, mã số thuế của người bán” (theo quy định chung về nội dung hoá đơn) và đồng thời bổ sung mã địa điểm kinh doanh để nhận diện chi nhánh cụ thể [Document 1].",
+      "contexts": [
+        "Trường hợp hộ kinh doanh, cá nhân kinh doanh có nhiều địa điểm kinh doanh thì sử dụng mã số thuế của hộ kinh doanh, cá nhân kinh doanh cho tất cả các cửa hàng và phải ghi rõ mã địa điểm kinh doanh trên hóa đơn.\n\nTrường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống đáp ứng điều kiện và có nhu cầu sử dụng hóa đơn điện tử thì đăng ký sử dụng hóa đơn điện tử có mã của cơ quan thuế hoặc hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Hóa đơn phải có các nội dung sau:\n\na) Tên hóa đơn, ký hiệu hóa đơn, ký hiệu mẫu số hóa đơn;\n\nb) Số hóa đơn;\n\nc) Tên, địa chỉ, mã số thuế của người bán;\n\nd) Tên, địa chỉ, mã số thuế hoặc mã số đơn vị có quan hệ với ngân sách hoặc số định danh cá nhân của người mua;",
+        "*- Chỉ tiêu [14]: Đối với cá nhân kinh doanh nộp thuế thu nhập cá nhân trên doanh thu tính thuế có nhiều ngành, nghề kinh doanh áp dụng thuế suất thuế thu nhập cá nhân khác nhau, có nhiều địa điểm kinh doanh thì được lựa chọn một (01) ngành, nghề hoặc một (01) địa điểm kinh doanh để áp dụng mức trừ 01 tỷ đồng trước khi tính thuế thu nhập cá nhân theo phương án có lợi nhất",
+        "Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh tại Điều 9 Nghị định này hoặc hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trước chưa trên 01 tỷ đồng (trừ trường hợp đã đăng ký sử dụng hóa đơn điện tử) nhưng trong năm tính thuế có doanh thu trên 01 tỷ đồng trở lên thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        ". Nếu quá thời hạn trên mà hộ kinh doanh không đăng ký thay đổi thì Cơ quan đăng ký kinh doanh cấp xã ra thông báo về hành vi vi phạm và ra quyết định thu hồi Giấy chứng nhận đăng ký hộ kinh doanh."
+      ],
+      "sources": [
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "254-2026-ND-CP-hoa-don-dien-tu.pdf",
+        "article_03.json",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf"
+      ],
+      "retrieval_latency_seconds": 1.337624842999503,
+      "generation_latency_seconds": 4.0920276660472155e-06,
+      "best_dense_score": 0.7673574686050415,
+      "error": null,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.894458,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    }
+  },
+  "5": {
+    "question": "Mẫu tờ khai chính dành cho hộ nộp thuế theo phương pháp thuế suất nhân doanh thu là mẫu nào?",
+    "dense": {
+      "response": "Mẫu tờ khai chính dành cho hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế là **Mẫu số 01/CNKD** – tờ khai theo mẫu này được ban hành kèm theo Thông tư số 50/2026/TT‑BTC ngày 13/5/2026【Document 1】, 【Document 2】, 【Document 5】.",
+      "contexts": [
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế: hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là Tờ khai theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi",
+        "Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế, hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là Tờ khai theo Mẫu số 01/CNKD.",
+        "**- Mẫu đơn, mẫu tờ khai đính kèm:**\n\n|  |\n| --- |\n| **Mẫu số: 01/CNKD**  *(Kèm theo Thông tư số 50/2026/TT-BTC ngày 13/5/2026 của Bộ trưởng Bộ Tài chính)* |\n\n**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  \n Độc lập - Tự do - Hạnh phúc**  \n **---------------**\n\n**TỜ KHAI THUẾ ĐỐI VỚI HỘ KINH DOANH, CÁ NHÂN KINH DOANH**\n\n*(Áp dụng cho hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng)*\n\n□ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế TNCN trên doanh thu tính thuế",
+        "Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất. Hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác trong năm là Tờ khai theo Mẫu số 01/CNKD. Hồ sơ khai quyết toán thuế thu nhập cá nhân là Tờ khai quyết toán thuế thu nhập cá nhân theo Mẫu số 02/CNKD-TNCN-QTT.",
+        "b) Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế, hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là Tờ khai theo Mẫu số 01/CNKD ban hành kèm theo Thông tư này.\n\nc) Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất:"
+      ],
+      "sources": [
+        "article_03.json",
+        "article_05.json",
+        "article_03.json",
+        "article_05.json",
+        "24-2026-VBHN-TT-BTC-thu-tuc-quan-ly-thue.pdf"
+      ],
+      "retrieval_latency_seconds": 0.1777105070068501,
+      "generation_latency_seconds": 2.6424191530095413,
+      "best_dense_score": 0.6765158772468567,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.75,
+        "answer_relevance": 0.776324,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    "hybrid": {
+      "response": "Mẫu tờ khai chính dành cho hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế là **Mẫu số 01/CNKD**【Document 1】【Document 3】【Document 2】.",
+      "contexts": [
+        "Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế, hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là Tờ khai theo Mẫu số 01/CNKD.",
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế: hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là Tờ khai theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi",
+        "b) Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế, hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là Tờ khai theo Mẫu số 01/CNKD ban hành kèm theo Thông tư này.\n\nc) Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất:",
+        "Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất. Hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác trong năm là Tờ khai theo Mẫu số 01/CNKD. Hồ sơ khai quyết toán thuế thu nhập cá nhân là Tờ khai quyết toán thuế thu nhập cá nhân theo Mẫu số 02/CNKD-TNCN-QTT.",
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất: hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác trong năm là Tờ khai theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo tờ khai thuế đầu tiên trong năm 2026) theo mẫu 01/BK-STK"
+      ],
+      "sources": [
+        "article_05.json",
+        "article_03.json",
+        "24-2026-VBHN-TT-BTC-thu-tuc-quan-ly-thue.pdf",
+        "article_05.json",
+        "article_03.json"
+      ],
+      "retrieval_latency_seconds": 1.340257237025071,
+      "generation_latency_seconds": 6.30799331702292e-06,
+      "best_dense_score": 0.6765158772468567,
+      "error": null,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.722908,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    }
+  },
+  "6": {
+    "question": "Hộ không chịu thuế GTGT và không phải nộp thuế TNCN thông báo doanh thu bằng mẫu nào?",
+    "dense": {
+      "response": "Hộ kinh doanh, cá nhân kinh doanh không chịu thuế giá trị gia tăng và không phải nộp thuế thu nhập cá nhân phải thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo **Mẫu số 01/TKN‑CNKD**【Document 1】.",
+      "contexts": [
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo mẫu số 01/TKN-CNKD ban hành kèm theo *Thông tư số [50/2026/TT-BTC](https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/50-btc.signed.pdf \"50/2026/TT-BTC \") ngày 13/5/2026 sửa đổi",
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh): thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo mẫu số 01/TKN-CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi",
+        "Đối với hộ kinh doanh, cá nhân kinh doanh sẽ thực hiện quy định về hồ sơ thông báo doanh thu, kê khai thuế như sau:\n\na) Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo Mẫu số 01/TKN-CNKD ban hành kèm theo Thông tư này.",
+        "Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân, bao gồm cả trường hợp mới ra kinh doanh, thực hiện thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo Mẫu số 01/TKN-CNKD.",
+        "**THÔNG BÁO DOANH THU/TỜ KHAI THUẾ NĂM**\n\n*(Áp dụng đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống; hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế; cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm)*\n\n□ Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống"
+      ],
+      "sources": [
+        "article_03.json",
+        "article_03.json",
+        "24-2026-VBHN-TT-BTC-thu-tuc-quan-ly-thue.pdf",
+        "article_05.json",
+        "article_03.json"
+      ],
+      "retrieval_latency_seconds": 0.19252205101656727,
+      "generation_latency_seconds": 1.1118510070082266,
+      "best_dense_score": 0.7090805768966675,
+      "error": null,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.657358,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    "hybrid": {
+      "response": "Hộ kinh doanh, cá nhân kinh doanh không chịu thuế giá trị gia tăng và không phải nộp thuế thu nhập cá nhân phải thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác **theo Mẫu số 01/TKN‑CNKD**【Document 1】、【Document 2】、【Document 3】、【Document 4】.",
+      "contexts": [
+        "Đối với hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân, bao gồm cả trường hợp mới ra kinh doanh, thực hiện thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo Mẫu số 01/TKN-CNKD.",
+        "Đối với hộ kinh doanh, cá nhân kinh doanh sẽ thực hiện quy định về hồ sơ thông báo doanh thu, kê khai thuế như sau:\n\na) Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo Mẫu số 01/TKN-CNKD ban hành kèm theo Thông tư này.",
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo mẫu số 01/TKN-CNKD ban hành kèm theo *Thông tư số [50/2026/TT-BTC](https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/50-btc.signed.pdf \"50/2026/TT-BTC \") ngày 13/5/2026 sửa đổi",
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh): thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo mẫu số 01/TKN-CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi",
+        "**THÔNG BÁO DOANH THU/TỜ KHAI THUẾ NĂM**\n\n*(Áp dụng đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống; hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế; cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm)*\n\n□ Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống"
+      ],
+      "sources": [
+        "article_05.json",
+        "24-2026-VBHN-TT-BTC-thu-tuc-quan-ly-thue.pdf",
+        "article_03.json",
+        "article_03.json",
+        "article_03.json"
+      ],
+      "retrieval_latency_seconds": 1.3657756820321083,
+      "generation_latency_seconds": 0.79760669299867,
+      "best_dense_score": 0.7090805768966675,
+      "error": null,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.652972,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    }
+  },
+  "7": {
+    "question": "Mẫu thông báo tài khoản ngân hàng hoặc ví điện tử của hộ kinh doanh là mẫu nào?",
+    "dense": {
+      "response": "Mẫu thông báo số tài khoản ngân hàng / số hiệu ví điện tử mà hộ kinh doanh, cá nhân kinh doanh phải nộp là **Mẫu số 01/BK‑STK** (được ban hành kèm theo Thông tư 18/2026/TT‑BTC). [Document 3] [Document 1]",
+      "contexts": [
+        "Hộ kinh doanh, cá nhân kinh doanh đang hoạt động thuộc đối tượng quy định tại điểm a khoản 4 Điều 17 Nghị định số 68/2026/NĐ-CP gửi Thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Tờ khai thuế đầu tiên của năm 2026.\n\nHộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh gửi Thông báo số tài khoản/số hiệu ví điện tử theo mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Thông báo doanh thu hoặc Tờ khai thuế đầu tiên của năm.",
+        "Hộ kinh doanh, cá nhân kinh doanh đang hoạt động thuộc đối tượng quy định tại điểm a khoản 4 Điều 17 Nghị định số 68/2026/NĐ-CP gửi Thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Tờ khai thuế đầu tiên của năm 2026.\n\nHộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh gửi Thông báo số tài khoản/số hiệu ví điện tử theo mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Thông báo doanh thu hoặc Tờ khai thuế đầu tiên của năm.",
+        "|  |\n| --- |\n| Mẫu số: **01/BK-STK** *(Kèm theo Thông tư số 18/2026/TT-BTC ngày 05/3/2026 của Bộ trưởng Bộ Tài chính)* |\n\n**THÔNG BÁO SỐ TÀI KHOẢN/SỐ HIỆU VÍ ĐIỆN TỬ**\n\n**[01] Người nộp thuế:** …………………………………………………………………………….\n\n**[02]** Mã số thuế: ……………………………………………………………………………………\n\nThông báo về số tài khoản ngân hàng/số hiệu ví điện tử liên quan đến sản xuất, kinh doanh của hộ kinh doanh, cá nhân kinh doanh như sau:",
+        ", bổ sung một số điều của Thông tư số [18/2026/TT-BTC](https://xaydungchinhsach.chinhphu.vn/thong-tu-18-2026-tt-btc-quy-dinh-ve-ho-so-thu-tuc-quan-ly-thue-voi-ho-ca-nhan-kinh-doanh-119260309174321852.htm \"18/2026/TT-BTC\")* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo thông báo đầu tiên của năm đối với hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC.",
+        ", bổ sung một số điều của Thông tư số 18/2026/TT-BTC* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo thông báo đầu tiên của năm đối với hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC."
+      ],
+      "sources": [
+        "24-2026-VBHN-TT-BTC-thu-tuc-quan-ly-thue.pdf",
+        "article_05.json",
+        "article_03.json",
+        "article_03.json",
+        "article_03.json"
+      ],
+      "retrieval_latency_seconds": 0.1832264779950492,
+      "generation_latency_seconds": 1.3980134589946829,
+      "best_dense_score": 0.7369340658187866,
+      "error": null,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.905898,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    "hybrid": {
+      "response": "Mẫu thông báo số tài khoản ngân hàng hoặc số hiệu ví điện tử mà hộ kinh doanh, cá nhân kinh doanh phải nộp là **Mẫu số 01/BK‑STK** (được ban hành kèm theo Thông tư số 18/2026/TT‑BTC).  \n\n**Citations:**  \n- “...theo mẫu 01/BK‑STK ban hành kèm theo Thông tư số 18/2026/TT‑BTC” [Document 1]  \n- “gửi Thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK‑STK ban hành kèm theo Thông tư này” [Document 3]  \n- “theo Mẫu số 01/BK‑STK ban hành kèm theo Thông tư này” [Document 5]  \n- “theo Mẫu số 01/BK‑STK ban hành kèm theo Thông tư này” [Document 4]  \n- “theo mẫu 01/BK‑STK ban hành kèm theo Thông tư số 18/2026/TT‑BTC” [Document 2]",
+      "contexts": [
+        ", bổ sung một số điều của Thông tư số 18/2026/TT-BTC* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo thông báo đầu tiên của năm đối với hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC.",
+        ", bổ sung một số điều của Thông tư số [18/2026/TT-BTC](https://xaydungchinhsach.chinhphu.vn/thong-tu-18-2026-tt-btc-quy-dinh-ve-ho-so-thu-tuc-quan-ly-thue-voi-ho-ca-nhan-kinh-doanh-119260309174321852.htm \"18/2026/TT-BTC\")* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo thông báo đầu tiên của năm đối với hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC.",
+        "Hộ kinh doanh, cá nhân kinh doanh đang hoạt động thuộc đối tượng quy định tại điểm a khoản 4 Điều 17 Nghị định số 68/2026/NĐ-CP gửi Thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Tờ khai thuế đầu tiên của năm 2026.\n\nHộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh gửi Thông báo số tài khoản/số hiệu ví điện tử theo mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Thông báo doanh thu hoặc Tờ khai thuế đầu tiên của năm.",
+        "Hộ kinh doanh, cá nhân kinh doanh đang hoạt động thuộc đối tượng quy định tại điểm a khoản 4 Điều 17 Nghị định số 68/2026/NĐ-CP gửi Thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Tờ khai thuế đầu tiên của năm 2026.\n\nHộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh gửi Thông báo số tài khoản/số hiệu ví điện tử theo mẫu số 01/BK-STK ban hành kèm theo Thông tư này kèm theo Thông báo doanh thu hoặc Tờ khai thuế đầu tiên của năm.",
+        "Bên cạnh đó, Văn bản hợp nhất quy định về việc thông báo số tài khoản, số hiệu ví điện tử đối với hộ kinh doanh, cá nhân kinh doanh thuộc các trường hợp quy định tại Nghị định số 68/2026/NĐ-CP.\n\nTheo đó, hộ kinh doanh, cá nhân kinh doanh đang hoạt động thuộc đối tượng quy định tại điểm b khoản 4 Điều 17 Nghị định số 68/2026/NĐ-CP gửi Thông báo số tài khoản/số hiệu ví điện tử theo Mẫu số 01/BK-STK ban hành kèm theo Thông tư này chậm nhất là ngày 20 tháng 4 năm 2026."
+      ],
+      "sources": [
+        "article_03.json",
+        "article_03.json",
+        "24-2026-VBHN-TT-BTC-thu-tuc-quan-ly-thue.pdf",
+        "article_05.json",
+        "article_05.json"
+      ],
+      "retrieval_latency_seconds": 1.3654011629987508,
+      "generation_latency_seconds": 1.5341928699926939,
+      "best_dense_score": 0.7369340658187866,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.285714,
+        "answer_relevance": 0.754433,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    }
+  },
+  "8": {
+    "question": "Hộ tính thuế theo phương pháp thu nhập tính thuế nhân thuế suất phải lập bảng kê tài sản nào khi chuyển đổi?",
+    "dense": {
+      "response": "Tôi không tìm thấy trong các tài liệu được cung cấp bất kỳ đoạn nào nêu rõ “hộ kinh doanh tính thuế theo phương pháp thu nhập tính thuế nhân (x) phải lập bảng kê tài sản nào khi chuyển đổi”. Vì không có bằng chứng cụ thể trong các nguồn đã nêu, tôi không thể xác nhận câu trả lời cho câu hỏi này.  \n\n*Lưu ý: Câu trả lời chỉ mang tính tham khảo và không thay thế tư vấn của cơ quan có thẩm quyền.*",
+      "contexts": [
+        "Hộ kinh doanh, cá nhân kinh doanh khi thay đổi thông tin số tài khoản/số hiệu ví điện tử thì thông báo cho cơ quan thuế theo quy định của pháp luật quản lý thuế.\n\n## Hồ sơ đề nghị hoàn thuế nộp thừa\n\n1. Hồ sơ đề nghị hoàn thuế nộp thừa đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế là Tờ khai thuế theo Mẫu số 01/TKN-CNKD ban hành kèm theo Thông tư này.",
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế: hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là Tờ khai theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi",
+        "*- Trường hợp hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế thì hộ kinh doanh, cá nhân kinh doanh kê khai doanh thu và số thuế giá trị gia tăng, thuế thu nhập cá nhân phải nộp theo từng địa điểm kinh doanh.*",
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất thì khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác trong năm theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi",
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất: hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác trong năm là Tờ khai theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo tờ khai thuế đầu tiên trong năm 2026) theo mẫu 01/BK-STK"
+      ],
+      "sources": [
+        "24-2026-VBHN-TT-BTC-thu-tuc-quan-ly-thue.pdf",
+        "article_03.json",
+        "article_03.json",
+        "article_03.json",
+        "article_03.json"
+      ],
+      "retrieval_latency_seconds": 0.18913961100042798,
+      "generation_latency_seconds": 3.625426596001489,
+      "best_dense_score": 0.6502957344055176,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.0,
+        "answer_relevance": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.25
+      }
+    },
+    "hybrid": {
+      "response": "Xin lỗi, trong các tài liệu được cung cấp không có thông tin nào đề cập đến “bảng kê tài sản” mà hộ kinh doanh phải lập khi chuyển đổi phương pháp tính thuế thu nhập cá nhân theo thu nhập tính thuế nhân thuế suất. Vì thiếu bằng chứng nên tôi không thể xác nhận câu trả lời cho câu hỏi này. \n\n*Lưu ý: Câu trả lời chỉ mang tính tham khảo và không thay thế tư vấn của cơ quan có thẩm quyền.*",
+      "contexts": [
+        "*- Trường hợp hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế thì hộ kinh doanh, cá nhân kinh doanh kê khai doanh thu và số thuế giá trị gia tăng, thuế thu nhập cá nhân phải nộp theo từng địa điểm kinh doanh.*",
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất thì khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác trong năm theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi",
+        "*- Trường hợp hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất thì hộ kinh doanh, cá nhân kinh doanh kê khai doanh thu từng địa điểm kinh doanh và thực hiện nộp thuế giá trị gia tăng theo từng địa điểm kinh doanh, tạm nộp thuế thu nhập cá nhân tại trụ sở chính.*",
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất: hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác trong năm là Tờ khai theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo tờ khai thuế đầu tiên trong năm 2026) theo mẫu 01/BK-STK",
+        "++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế, khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi"
+      ],
+      "sources": [
+        "article_03.json",
+        "article_03.json",
+        "article_03.json",
+        "article_03.json",
+        "article_03.json"
+      ],
+      "retrieval_latency_seconds": 1.3487286349991336,
+      "generation_latency_seconds": 5.833018803969026e-06,
+      "best_dense_score": 0.6502957344055176,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.0,
+        "answer_relevance": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.8875
+      }
+    }
+  },
+  "9": {
+    "question": "Có thể nộp hồ sơ khai thuế hộ kinh doanh bằng phương thức điện tử ở đâu?",
+    "dense": {
+      "response": "Xin lỗi, trong các tài liệu mà bạn đã cung cấp không có thông tin nào đề cập đến địa điểm hoặc kênh thực hiện nộp hồ sơ khai thuế hộ kinh doanh bằng phương thức điện tử. Vì thiếu bằng chứng cụ thể, tôi không thể xác nhận câu trả lời cho câu hỏi này. Nếu cần thông tin chi tiết, bạn nên tham khảo các văn bản pháp luật liên quan đến khai thuế điện tử của cơ quan thuế hoặc liên hệ trực tiếp với cơ quan thuế có thẩm quyền.",
+      "contexts": [
+        "Trường hợp hộ kinh doanh, cá nhân kinh doanh có nhiều địa điểm kinh doanh thì sử dụng mã số thuế của hộ kinh doanh, cá nhân kinh doanh cho tất cả các cửa hàng và phải ghi rõ mã địa điểm kinh doanh trên hóa đơn.\n\nTrường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống đáp ứng điều kiện và có nhu cầu sử dụng hóa đơn điện tử thì đăng ký sử dụng hóa đơn điện tử có mã của cơ quan thuế hoặc hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Đối với trường hợp đăng ký qua mạng thông tin điện tử: Người nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập vào Hệ thống thông tin về đăng ký hộ kinh doanh.\n\nNgười nộp hồ sơ kê khai thông tin, tải văn bản điện tử, ký số hồ sơ đăng ký hộ kinh doanh qua mạng thông tin điện tử và thanh toán lệ phí theo quy trình trên Hệ thống thông tin về đăng ký hộ kinh doanh.",
+        "#### **Điều 111. Đăng ký hộ kinh doanh qua mạng thông tin điện tử**\n\n1. Đăng ký hộ kinh doanh qua mạng thông tin điện tử là việc chủ hộ kinh doanh, người được ủy quyền sử dụng tài khoản định danh điện tử để thực hiện việc đăng ký hộ kinh doanh trên Hệ thống thông tin về đăng ký hộ kinh doanh.\n\n2. Cơ quan đăng ký kinh doanh cấp xã tạo điều kiện thuận lợi cho các tổ chức, cá nhân tìm hiểu thông tin, thực hiện đăng ký hộ kinh doanh qua mạng thông tin điện tử.",
+        "2. Đăng ký qua dịch vụ bưu chính.\n\n3. Đăng ký qua mạng thông tin điện tử.\n\n#### **Điều 95. Tiếp nhận, xử lý hồ sơ đăng ký hộ kinh doanh trên Hệ thống thông tin về đăng ký hộ kinh doanh theo phương thức đăng ký trực tiếp và đăng ký qua dịch vụ bưu chính**\n\n1. Cơ quan đăng ký kinh doanh cấp xã tiếp nhận hồ sơ đăng ký hộ kinh doanh vào Hệ thống thông tin về đăng ký hộ kinh doanh khi hồ sơ đáp ứng các điều kiện sau đây:\n\na) Có đủ giấy tờ theo quy định tại Nghị định này;",
+        "Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký hộ kinh doanh phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân còn hiệu lực của người ủy quyền.\n\n#### **Điều 94. Phương thức đăng ký hộ kinh doanh**\n\nChủ hộ kinh doanh hoặc người được ủy quyền đăng ký hộ kinh doanh với Cơ quan đăng ký kinh doanh cấp xã theo một trong các phương thức sau đây:\n\n1. Đăng ký trực tiếp tại Cơ quan đăng ký kinh doanh cấp xã.\n\n2. Đăng ký qua dịch vụ bưu chính."
+      ],
+      "sources": [
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "article_01.json",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf"
+      ],
+      "retrieval_latency_seconds": 0.2105005070043262,
+      "generation_latency_seconds": 2.8974166039843112,
+      "best_dense_score": 0.6695507764816284,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.166667,
+        "answer_relevance": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.5
+      }
+    },
+    "hybrid": {
+      "response": "Hồ sơ khai thuế của hộ kinh doanh có thể nộp bằng phương thức điện tử **qua Cổng dịch vụ công Quốc gia** (hoặc thông qua ứng dụng định danh quốc gia) theo quy định “một cửa, một cửa liên thông” trong giải quyết thủ tục hành chính [Document 5].",
+      "contexts": [
+        "Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký hộ kinh doanh phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân còn hiệu lực của người ủy quyền.\n\n#### **Điều 94. Phương thức đăng ký hộ kinh doanh**\n\nChủ hộ kinh doanh hoặc người được ủy quyền đăng ký hộ kinh doanh với Cơ quan đăng ký kinh doanh cấp xã theo một trong các phương thức sau đây:\n\n1. Đăng ký trực tiếp tại Cơ quan đăng ký kinh doanh cấp xã.\n\n2. Đăng ký qua dịch vụ bưu chính.",
+        "Trường hợp hộ kinh doanh, cá nhân kinh doanh có nhiều địa điểm kinh doanh thì sử dụng mã số thuế của hộ kinh doanh, cá nhân kinh doanh cho tất cả các cửa hàng và phải ghi rõ mã địa điểm kinh doanh trên hóa đơn.\n\nTrường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống đáp ứng điều kiện và có nhu cầu sử dụng hóa đơn điện tử thì đăng ký sử dụng hóa đơn điện tử có mã của cơ quan thuế hoặc hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "6. Việc chấm dứt hoạt động chi nhánh, văn phòng đại diện của doanh nghiệp ở nước ngoài thực hiện theo quy định của pháp luật nước đó. Trong thời hạn 30 ngày kể từ ngày chính thức chấm dứt hoạt động chi nhánh, văn phòng đại diện ở nước ngoài, doanh nghiệp gửi thông báo bằng văn bản về việc chấm dứt hoạt động chi nhánh, văn phòng đại diện của doanh nghiệp ở nước ngoài đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp đặt trụ sở chính",
+        "Đối với trường hợp đăng ký qua mạng thông tin điện tử: Người nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập vào Hệ thống thông tin về đăng ký hộ kinh doanh.\n\nNgười nộp hồ sơ kê khai thông tin, tải văn bản điện tử, ký số hồ sơ đăng ký hộ kinh doanh qua mạng thông tin điện tử và thanh toán lệ phí theo quy trình trên Hệ thống thông tin về đăng ký hộ kinh doanh.",
+        "**+ Bước 2.** Cơ quan thuế tiếp nhận hồ sơ của người nộp thuế theo quy định.\n\n#### *-* **Cách thức thực hiện:**\n\n+ Bằng phương thức điện tử qua Cổng dịch vụ công Quốc gia hoặc ứng dụng định danh quốc gia theo quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính."
+      ],
+      "sources": [
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "article_01.json",
+        "article_03.json"
+      ],
+      "retrieval_latency_seconds": 1.555978407006478,
+      "generation_latency_seconds": 4.736997652798891e-06,
+      "best_dense_score": 0.6695507764816284,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.333333,
+        "answer_relevance": 0.866428,
+        "context_recall": 1.0,
+        "context_precision": 0.2
+      }
+    }
+  },
+  "10": {
+    "question": "Mẫu thông báo thành lập, thay đổi, tạm ngừng hoặc chấm dứt địa điểm kinh doanh là mẫu nào?",
+    "dense": {
+      "response": "Mẫu thông báo về việc thành lập, thay đổi, tạm ngừng hoặc chấm dứt địa điểm kinh doanh mà hộ kinh doanh, cá nhân kinh doanh phải nộp cho cơ quan thuế là **Mẫu số 01/TB‑ĐĐKD** (được ban hành kèm theo Thông tư)【Document 1】.",
+      "contexts": [
+        "## **Quy định về thông báo địa điểm kinh doanh**\n\nTheo Văn bản hợp nhất, hộ kinh doanh, cá nhân kinh doanh gửi Thông báo về việc thành lập địa điểm kinh doanh, thay đổi thông tin, tạm ngừng kinh doanh, chấm dứt hoạt động địa điểm kinh doanh đến cơ quan thuế quản lý trụ sở kinh doanh quy định tại điểm đ khoản 4 Điều 8 Nghị định số 68/2026/NĐ-CP theo Mẫu số 01/TB-ĐĐKD ban hành kèm theo Thông tư.",
+        ", văn phòng đại diện, địa điểm kinh doanh trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, đồng thời ra thông báo về việc chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa điểm kinh doanh",
+        "Thông tư quy định chi tiết về hồ sơ, thủ tục thông báo doanh thu, kê khai thuế, nộp thuế, hoàn thuế, thông báo địa điểm kinh doanh, tạm ngừng, chấm dứt hoạt động kinh doanh đối với hộ kinh doanh, cá nhân kinh doanh theo quy định của Luật Quản lý thuế số 108/2025/QH15 và Nghị định số 68/2026/NĐ-CP của Chính phủ.\n\n## **Quy định về thông báo địa điểm kinh doanh**",
+        "### **Chương VI** **HỒ SƠ, TRÌNH TỰ, THỦ TỤC THÔNG BÁO TẠM NGỪNG KINH****DOANH, CẤP LẠI GIẤY CHỨNG NHẬN ĐĂNG KÝ DOANH****NGHIỆP, GIẢI THỂ DOANH NGHIỆP, THU HỒI GIẤY CHỨNG** **NHẬN ĐĂNG KÝ DOANH NGHIỆP**\n\n#### **Điều 60. Thông báo tạm ngừng kinh doanh, tiếp tục kinh doanh trước thời hạn đã thông báo đối với doanh nghiệp, chi nhánh, địa điểm kinh doanh; thông báo tạm ngừng hoạt động, tiếp tục hoạt động trước thời hạn đã thông báo đối với văn phòng đại diện**",
+        "2. Hồ sơ thông báo tạm ngừng kinh doanh của doanh nghiệp, chi nhánh, địa điểm kinh doanh, tạm ngừng hoạt động của văn phòng đại diện bao gồm các giấy tờ sau:\n\na) Thông báo tạm ngừng kinh doanh, tạm ngừng hoạt động;"
+      ],
+      "sources": [
+        "article_05.json",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "article_05.json",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf"
+      ],
+      "retrieval_latency_seconds": 0.18299551898962818,
+      "generation_latency_seconds": 1.8462766489828937,
+      "best_dense_score": 0.6617525815963745,
+      "error": null,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.897515,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    "hybrid": {
+      "response": "Mẫu thông báo về việc thành lập, thay đổi, tạm ngừng hoặc chấm dứt địa điểm kinh doanh mà hộ kinh doanh, cá nhân kinh doanh phải nộp cho cơ quan thuế là **Mẫu số 01/TB‑ĐĐKD** (được ban hành kèm theo Thông tư)【Document 1】.",
+      "contexts": [
+        "## **Quy định về thông báo địa điểm kinh doanh**\n\nTheo Văn bản hợp nhất, hộ kinh doanh, cá nhân kinh doanh gửi Thông báo về việc thành lập địa điểm kinh doanh, thay đổi thông tin, tạm ngừng kinh doanh, chấm dứt hoạt động địa điểm kinh doanh đến cơ quan thuế quản lý trụ sở kinh doanh quy định tại điểm đ khoản 4 Điều 8 Nghị định số 68/2026/NĐ-CP theo Mẫu số 01/TB-ĐĐKD ban hành kèm theo Thông tư.",
+        "2. Hồ sơ thông báo tạm ngừng kinh doanh của doanh nghiệp, chi nhánh, địa điểm kinh doanh, tạm ngừng hoạt động của văn phòng đại diện bao gồm các giấy tờ sau:\n\na) Thông báo tạm ngừng kinh doanh, tạm ngừng hoạt động;",
+        "c) Trường hợp nội dung kê khai trong hồ sơ thông báo tạm ngừng kinh doanh, thông báo tạm ngừng hoạt động, hồ sơ đăng ký chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa điểm kinh doanh là giả mạo, Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc vi phạm của doanh nghiệp và quyết định thu hồi Giấy xác nhận thông báo tạm ngừng kinh doanh, tạm ngừng hoạt động, thông báo tiếp tục kinh doanh, tiếp tục hoạt động, Thông báo chi nhánh, văn phòng đại diện",
+        ", văn phòng đại diện, địa điểm kinh doanh trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, đồng thời ra thông báo về việc chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa điểm kinh doanh",
+        ". Trình tự, thủ tục thu hồi Giấy chứng nhận đăng ký hoạt động chi nhánh, văn phòng đại diện, Giấy chứng nhận đăng ký địa điểm kinh doanh, Giấy xác nhận thông báo tạm ngừng kinh doanh, tạm ngừng hoạt động, thông báo tiếp tục kinh doanh, tiếp tục hoạt động, Thông báo chi nhánh, văn phòng đại diện, địa điểm kinh doanh đang làm thủ tục chấm dứt hoạt động, Thông báo về việc chi nhánh, văn phòng đại diện, địa điểm kinh doanh chấm dứt hoạt động"
+      ],
+      "sources": [
+        "article_05.json",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf"
+      ],
+      "retrieval_latency_seconds": 1.359058820962673,
+      "generation_latency_seconds": 1.2536246690142434,
+      "best_dense_score": 0.6617525815963745,
+      "error": null,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.762429,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    }
+  },
+  "11": {
+    "question": "Thông báo thay đổi hoặc chấm dứt địa điểm kinh doanh được gửi đến cơ quan nào?",
+    "dense": {
+      "response": "**Cơ quan nhận Thông báo thay đổi hoặc chấm dứt địa điểm kinh doanh**\n\n1. **Cơ quan thuế quản lý trụ sở kinh doanh**  \n   - Khi hộ kinh doanh hoặc cá nhân kinh doanh thực hiện việc thông báo về việc thành lập, thay đổi, tạm ngừng hoặc chấm dứt hoạt động của địa điểm kinh doanh, hồ sơ phải được gửi **đến cơ quan thuế quản lý trụ sở kinh doanh** theo quy định tại điểm đ khoản 4 Điều 8 Nghị định số 68/2026/NĐ‑CP.  \n   - **[Document 1]**\n\n2. **Cơ quan đăng ký kinh doanh cấp tỉnh**  \n   - Đối với việc thông báo thay đổi hoặc chấm dứt hoạt động của chi nhánh, văn phòng đại diện, hoặc địa điểm kinh doanh (trước thời hạn đã thông báo), doanh nghiệp phải nộp hồ sơ **đến Cơ quan đăng ký kinh doanh cấp tỉnh** nơi doanh nghiệp, chi nhánh, văn phòng đại diện hoặc địa điểm kinh doanh đặt trụ sở.  \n   - **[Document 4]**\n\n> **Tóm lại:**  \n> - **Đối với thuế:** Thông báo được gửi tới **cơ quan thuế quản lý trụ sở kinh doanh** (theo Nghị định 68/2026/NĐ‑CP).  \n> - **Đối với đăng ký kinh doanh:** Thông báo được gửi tới **Cơ quan đăng ký kinh doanh cấp tỉnh** nơi trụ sở (hoặc chi nhánh, văn phòng đại diện, địa điểm kinh doanh) đặt.  \n\n*Lưu ý: Câu trả lời chỉ mang tính tham khảo và không thay thế tư vấn pháp lý từ cơ quan có thẩm quyền.*",
+      "contexts": [
+        "## **Quy định về thông báo địa điểm kinh doanh**\n\nTheo Văn bản hợp nhất, hộ kinh doanh, cá nhân kinh doanh gửi Thông báo về việc thành lập địa điểm kinh doanh, thay đổi thông tin, tạm ngừng kinh doanh, chấm dứt hoạt động địa điểm kinh doanh đến cơ quan thuế quản lý trụ sở kinh doanh quy định tại điểm đ khoản 4 Điều 8 Nghị định số 68/2026/NĐ-CP theo Mẫu số 01/TB-ĐĐKD ban hành kèm theo Thông tư.",
+        "#### **Điều 49. Thông báo thay đổi ngành, nghề kinh doanh**\n\n1. Trường hợp thay đổi ngành, nghề kinh doanh, doanh nghiệp gửi hồ sơ thông báo đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp đặt trụ sở chính. Hồ sơ đăng ký doanh nghiệp bao gồm các giấy tờ sau đây:\n\na) Thông báo thay đổi nội dung đăng ký doanh nghiệp;",
+        ", văn phòng đại diện, địa điểm kinh doanh trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, đồng thời ra thông báo về việc chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa điểm kinh doanh",
+        ". Trường hợp doanh nghiệp, chi nhánh, địa điểm kinh doanh tạm ngừng kinh doanh hoặc tiếp tục kinh doanh trước thời hạn đã thông báo, văn phòng đại diện tạm ngừng hoạt động hoặc tiếp tục hoạt động trước thời hạn đã thông báo, doanh nghiệp gửi hồ sơ thông báo đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp, chi nhánh, văn phòng đại diện, địa điểm kinh doanh đặt trụ sở chậm nhất 03 ngày làm việc trước ngày tạm ngừng kinh doanh, tạm ngừng hoạt động hoặc tiếp tục kinh doanh",
+        ". Cơ quan đăng ký kinh doanh cấp tỉnh đăng tải thông báo về việc vi phạm, quyết định thu hồi Giấy chứng nhận đăng ký hoạt động chi nhánh, văn phòng đại diện, Giấy chứng nhận đăng ký địa điểm kinh doanh, Giấy xác nhận thông báo tạm ngừng kinh doanh, tạm ngừng hoạt động, thông báo tiếp tục kinh doanh, đăng ký tiếp tục hoạt động, Thông báo chi nhánh, văn phòng đại diện, địa điểm kinh doanh đang làm thủ tục chấm dứt hoạt động, Thông báo về việc chi nhánh, văn phòng đại diện"
+      ],
+      "sources": [
+        "article_05.json",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf"
+      ],
+      "retrieval_latency_seconds": 0.19585380199714564,
+      "generation_latency_seconds": 4.69657318800455,
+      "best_dense_score": 0.735028862953186,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.875,
+        "answer_relevance": 0.85753,
+        "context_recall": 1.0,
+        "context_precision": 0.8875
+      }
+    },
+    "hybrid": {
+      "response": "**Hộ kinh doanh, cá nhân kinh doanh**  \n- Khi gửi Thông báo về việc thay đổi hoặc chấm dứt địa điểm kinh doanh, họ phải gửi đến **cơ quan thuế quản lý trụ sở kinh doanh** (theo quy định tại điểm đ khoản 4 Điều 8 Nghị định số 68/2026/NĐ‑CP) [Document 1].\n\n**Doanh nghiệp (công ty, chi nhánh, văn phòng đại diện, địa điểm kinh doanh)**  \n- Trong trường hợp doanh nghiệp muốn thông báo tạm ngừng hoặc chấm dứt hoạt động của địa điểm kinh doanh, hồ sơ thông báo phải được gửi **đến Cơ quan đăng ký kinh doanh cấp tỉnh** nơi địa điểm kinh doanh đặt trụ sở, và phải nộp ít nhất 03 ngày làm việc trước ngày thực hiện [Document 3].\n\n> Vì câu hỏi không chỉ rõ đối tượng (hộ kinh doanh hay doanh nghiệp), nên cả hai quy định trên đều được trích dẫn để trả lời đầy đủ.  \n\n*Lưu ý: Câu trả lời chỉ mang tính tham khảo và không thay thế tư vấn pháp lý chính thức.*",
+      "contexts": [
+        "## **Quy định về thông báo địa điểm kinh doanh**\n\nTheo Văn bản hợp nhất, hộ kinh doanh, cá nhân kinh doanh gửi Thông báo về việc thành lập địa điểm kinh doanh, thay đổi thông tin, tạm ngừng kinh doanh, chấm dứt hoạt động địa điểm kinh doanh đến cơ quan thuế quản lý trụ sở kinh doanh quy định tại điểm đ khoản 4 Điều 8 Nghị định số 68/2026/NĐ-CP theo Mẫu số 01/TB-ĐĐKD ban hành kèm theo Thông tư.",
+        "2. Trường hợp thay đổi địa chỉ chi nhánh, văn phòng đại diện, địa điểm kinh doanh, doanh nghiệp gửi hồ sơ đăng ký thay đổi đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi chi nhánh, văn phòng đại diện, địa điểm kinh doanh dự định chuyển đến.",
+        ". Trường hợp doanh nghiệp, chi nhánh, địa điểm kinh doanh tạm ngừng kinh doanh hoặc tiếp tục kinh doanh trước thời hạn đã thông báo, văn phòng đại diện tạm ngừng hoạt động hoặc tiếp tục hoạt động trước thời hạn đã thông báo, doanh nghiệp gửi hồ sơ thông báo đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp, chi nhánh, văn phòng đại diện, địa điểm kinh doanh đặt trụ sở chậm nhất 03 ngày làm việc trước ngày tạm ngừng kinh doanh, tạm ngừng hoạt động hoặc tiếp tục kinh doanh",
+        "#### **Điều 49. Thông báo thay đổi ngành, nghề kinh doanh**\n\n1. Trường hợp thay đổi ngành, nghề kinh doanh, doanh nghiệp gửi hồ sơ thông báo đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp đặt trụ sở chính. Hồ sơ đăng ký doanh nghiệp bao gồm các giấy tờ sau đây:\n\na) Thông báo thay đổi nội dung đăng ký doanh nghiệp;",
+        ". Doanh nghiệp gửi thông báo đề nghị bổ sung, cập nhật thông tin đến Cơ quan đăng ký kinh doanh cấp tỉnh để được xem xét cấp Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký hoạt động chi nhánh, văn phòng đại diện, Giấy chứng nhận đăng ký địa điểm kinh doanh đã được cập nhật thông tin về địa chỉ khi có nhu cầu hoặc khi đăng ký thay đổi, thông báo thay đổi nội dung đăng ký doanh nghiệp."
+      ],
+      "sources": [
+        "article_05.json",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf"
+      ],
+      "retrieval_latency_seconds": 1.3822644019965082,
+      "generation_latency_seconds": 7.057999027892947e-06,
+      "best_dense_score": 0.735028862953186,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.625,
+        "answer_relevance": 0.929472,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    }
+  },
+  "12": {
+    "question": "Nghị định 254/2026/NĐ-CP về hóa đơn điện tử có hiệu lực từ ngày nào?",
+    "dense": {
+      "response": "Nghị định 254/2026/NĐ‑CP về hóa đơn điện tử có hiệu lực từ ngày **01 /07 /2026**【Document 1】.",
+      "contexts": [
+        "Chính phủ ban hành Nghị định số 254/2026/NĐ-CP: Quy định chi tiết một số điều và biện pháp tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử. Nghị định có hiệu lực từ ngày 1/7/2026.\n\n### 07 nguyên tắc lập, quản lý, sử dụng hóa đơn điện tử, chứng từ điện tử\n\nNghị định quy định 7 nguyên tắc lập, quản lý, sử dụng hóa đơn điện tử, chứng từ điện tử như sau:",
+        "## [TOÀN VĂN: Nghị định số 254/2026/NĐ-CP: Quy định chi tiết một số điều và biện pháp tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử](https://xdcs.cdnchinhphu.vn/446259493575335936/2026/7/13/254-ndcp-signed-hoa-don-dien-tu-1783935351029278986043.pdf \"TOÀN VĂN: Nghị định số 254/2026/NĐ-CP: Quy định chi tiết một số điều và biện pháp tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử\")",
+        "### Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng phải áp dụng hóa đơn điện tử\n\nNghị định số 141/2026/NĐ-CP cũng sửa đổi, bổ sung khoản 5 Điều 8 Nghị định số 68/2026/NĐ-CP (sử dụng hóa đơn điện tử) như sau:\n\nHộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử trong thời gian 30 ngày kể từ ngày cuối cùng của kỳ tính thuế có doanh thu lũy kế trên 01 tỷ đồng.\n\n## Ngưỡng thu nhập được miễn thuế của doanh nghiệp là 01 tỷ đồng/năm\n\nNghị định số 141/2026/NĐ-CP bổ sung khoản 15 Điều 4 Nghị định số 320/2025/NĐ-CP về thu nhập được miễn thuế thu nhập doanh nghiệp.",
+        "g) Thời điểm lập hóa đơn thực hiện theo hướng dẫn tại Điều 9 Nghị định này và được hiển thị theo định dạng ngày, tháng, năm của năm đương lịch;\n\nh) Thời điểm ký số trên hóa đơn điện tử;\n\ni) Mã của cơ quan thuế đối với hóa đơn điện tử có mã của cơ quan thuế;\n\nk) Phí, lệ phí thuộc ngân sách nhà nước, chiết khấu thương mại, khuyến mại (nếu có) và các nội dung khác liên quan (nếu có)./."
+      ],
+      "sources": [
+        "254-2026-ND-CP-hoa-don-dien-tu.pdf",
+        "254-2026-ND-CP-hoa-don-dien-tu.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "254-2026-ND-CP-hoa-don-dien-tu.pdf"
+      ],
+      "retrieval_latency_seconds": 0.1760790469998028,
+      "generation_latency_seconds": 1.2488115140004084,
+      "best_dense_score": 0.7739124894142151,
+      "error": null,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.830051,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    "hybrid": {
+      "response": "Nghị định 254/2026/NĐ‑CP về hóa đơn điện tử có hiệu lực từ ngày 1 / 7 / 2026 theo quy định của văn bản [Document 1].",
+      "contexts": [
+        "Chính phủ ban hành Nghị định số 254/2026/NĐ-CP: Quy định chi tiết một số điều và biện pháp tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử. Nghị định có hiệu lực từ ngày 1/7/2026.\n\n### 07 nguyên tắc lập, quản lý, sử dụng hóa đơn điện tử, chứng từ điện tử\n\nNghị định quy định 7 nguyên tắc lập, quản lý, sử dụng hóa đơn điện tử, chứng từ điện tử như sau:",
+        "## [TOÀN VĂN: Nghị định số 254/2026/NĐ-CP: Quy định chi tiết một số điều và biện pháp tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử](https://xdcs.cdnchinhphu.vn/446259493575335936/2026/7/13/254-ndcp-signed-hoa-don-dien-tu-1783935351029278986043.pdf \"TOÀN VĂN: Nghị định số 254/2026/NĐ-CP: Quy định chi tiết một số điều và biện pháp tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử\")",
+        "### Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng phải áp dụng hóa đơn điện tử\n\nNghị định số 141/2026/NĐ-CP cũng sửa đổi, bổ sung khoản 5 Điều 8 Nghị định số 68/2026/NĐ-CP (sử dụng hóa đơn điện tử) như sau:\n\nHộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế.",
+        "Hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử trong thời gian 30 ngày kể từ ngày cuối cùng của kỳ tính thuế có doanh thu lũy kế trên 01 tỷ đồng.\n\n## Ngưỡng thu nhập được miễn thuế của doanh nghiệp là 01 tỷ đồng/năm\n\nNghị định số 141/2026/NĐ-CP bổ sung khoản 15 Điều 4 Nghị định số 320/2025/NĐ-CP về thu nhập được miễn thuế thu nhập doanh nghiệp.",
+        "Đồng thời, Điều 3 Nghị định số 141/2026/NĐ-CP ngày 29/4/2026 sửa đổi, bổ sung một số điều của Nghị định số 68/2026/NĐ-CP ngày 05/3/2026 của Chính phủ quy định về chính sách thuế và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh quy định:\n\n*“Điều 3. Hiệu lực thi hành*\n\n*Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026.\"*"
+      ],
+      "sources": [
+        "254-2026-ND-CP-hoa-don-dien-tu.pdf",
+        "254-2026-ND-CP-hoa-don-dien-tu.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "article_04.json"
+      ],
+      "retrieval_latency_seconds": 1.3987319830048364,
+      "generation_latency_seconds": 0.7994225809816271,
+      "best_dense_score": 0.7739124894142151,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.5,
+        "answer_relevance": 0.830051,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    }
+  },
+  "13": {
+    "question": "Nghị định 168/2025/NĐ-CP giao cơ quan đăng ký kinh doanh hộ kinh doanh ở cấp nào?",
+    "dense": {
+      "response": "Nghị định 168/2025/NĐ‑CP giao **cơ quan đăng ký kinh doanh hộ kinh doanh** cho **cơ quan đăng ký kinh doanh cấp xã** (tại xã, phường, đặc khu).  \n\n- Văn bản quy định việc tiếp nhận và xử lý hồ sơ đăng ký hộ kinh doanh được thực hiện bởi “cơ quan đăng ký kinh doanh cấp xã” [Document 2].  \n- Khi có vi phạm, “Cơ quan đăng ký kinh doanh cấp xã” cũng là đơn vị chịu trách nhiệm đăng tải thông báo và phối hợp quản lý [Document 5].\n\nVì vậy, theo Nghị định 168/2025/NĐ‑CP, hộ kinh doanh được đăng ký tại cơ quan đăng ký kinh doanh **cấp xã**.",
+      "contexts": [
+        "|  |  |\n| --- | --- |\n| **CHÍNH PHỦ**  \\_\\_\\_\\_\\_\\_  Số: 168/2025/NĐ-CP | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**  ****Độc lập – Tự do – Hạnh phúc****  \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_  **Hà Nội , ngày 30 tháng 6 năm 2025** |\n\n## **NGHỊ ĐỊNH** **Về đăng ký doanh nghiệp** \\_\\_\\_\\_\\_\\_\\_\n\n*Căn cứ Luật Tổ chức Chính phủ ngày 18 tháng 02 năm 2025;*\n\n*Căn cứ Luật Tổ chức chính quyền địa phương ngày 16 tháng 6 năm 2025;*",
+        "Sau khi tiếp nhận hồ sơ đăng ký hộ kinh doanh, cơ quan đăng ký kinh doanh cấp xã trao giấy tiếp nhận hồ sơ và hẹn trả kết quả, kiểm tra điều kiện cấp Giấy chứng nhận đăng ký hộ kinh doanh theo quy định tại khoản 2 Điều 85 Nghị định số 168/2025/NĐ-CP.",
+        "Trường hợp có nhu cầu hoặc khi thực hiện thủ tục đăng ký hộ kinh doanh theo quy định tại Nghị định này, hộ kinh doanh gửi giấy đề nghị đăng ký thay đổi nội dung đăng ký hộ kinh doanh đến Cơ quan đăng ký kinh doanh cấp xã để cập nhật thông tin về thẻ Căn cước của chủ hộ kinh doanh, thành viên hộ gia đình đăng ký hộ kinh doanh.\n\n#### **Điều 124. Điều khoản thi hành**\n\n1. Nghị định này có hiệu lực từ ngày 01 tháng 7 năm 2025.",
+        "#### **Điều 20. Cơ quan đăng ký kinh doanh**\n\nCơ quan đăng ký kinh doanh được tổ chức ở tỉnh, thành phố trực thuộc trung ương (sau đây gọi chung là cấp tỉnh) và ở xã, phường, đặc khu (sau đây gọi chung là cấp xã), bao gồm:\n\n1. Ở cấp tỉnh:",
+        ". Cơ quan đăng ký kinh doanh cấp xã đăng tải thông báo vi phạm của hộ kinh doanh trên Cổng thông tin quốc gia về đăng ký doanh nghiệp, thông báo cho Cơ quan quản lý thuế, cơ quan nhà nước có thẩm quyền về hành vi vi phạm của hộ kinh doanh để phối hợp quản lý và xử lý theo quy định của pháp luật, đồng thời cấp Giấy chứng nhận đăng ký hộ kinh doanh trên cơ sở hồ sơ hợp lệ gần nhất trước đó."
+      ],
+      "sources": [
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "article_01.json",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf"
+      ],
+      "retrieval_latency_seconds": 0.1769592739874497,
+      "generation_latency_seconds": 1.935544331005076,
+      "best_dense_score": 0.663680374622345,
+      "error": null,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.904398,
+        "context_recall": 1.0,
+        "context_precision": 0.679167
+      }
+    },
+    "hybrid": {
+      "response": "Nghị định 168/2025/NĐ‑CP quy định rằng **cơ quan đăng ký kinh doanh chịu trách nhiệm tiếp nhận và xử lý hồ sơ đăng ký hộ kinh doanh là cơ quan đăng ký kinh doanh cấp xã**.  \n\n- “Sau khi tiếp nhận hồ sơ đăng ký hộ kinh doanh, **cơ quan đăng ký kinh doanh cấp xã** trao giấy tiếp nhận hồ sơ…” [Document 1]  \n- “...hộ kinh doanh gửi giấy đề nghị đăng ký… đến **Cơ quan đăng ký kinh doanh cấp xã** để cập nhật thông tin…” [Document 4]  \n\nVì vậy, theo Nghị định 168/2025/NĐ‑CP, việc đăng ký hộ kinh doanh được giao cho cơ quan đăng ký kinh doanh ở **cấp xã**.",
+      "contexts": [
+        "Sau khi tiếp nhận hồ sơ đăng ký hộ kinh doanh, cơ quan đăng ký kinh doanh cấp xã trao giấy tiếp nhận hồ sơ và hẹn trả kết quả, kiểm tra điều kiện cấp Giấy chứng nhận đăng ký hộ kinh doanh theo quy định tại khoản 2 Điều 85 Nghị định số 168/2025/NĐ-CP.",
+        "Khi hộ kinh doanh muốn chuyển đổi sang hoạt động theo mô hình doanh nghiệp thì cần thực hiện thủ tục chuyển đổi quy định tại **Điều 27 Nghị định 168/2025/NĐ-CP** như sau: Đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh tại Phòng Đăng ký kinh doanh – Sở Kế hoạch và Đầu tư nơi đặt trụ sở chính.\n\n### 1.2 Địa điểm đăng ký",
+        "|  |  |\n| --- | --- |\n| **CHÍNH PHỦ**  \\_\\_\\_\\_\\_\\_  Số: 168/2025/NĐ-CP | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**  ****Độc lập – Tự do – Hạnh phúc****  \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_  **Hà Nội , ngày 30 tháng 6 năm 2025** |\n\n## **NGHỊ ĐỊNH** **Về đăng ký doanh nghiệp** \\_\\_\\_\\_\\_\\_\\_\n\n*Căn cứ Luật Tổ chức Chính phủ ngày 18 tháng 02 năm 2025;*\n\n*Căn cứ Luật Tổ chức chính quyền địa phương ngày 16 tháng 6 năm 2025;*",
+        "Trường hợp có nhu cầu hoặc khi thực hiện thủ tục đăng ký hộ kinh doanh theo quy định tại Nghị định này, hộ kinh doanh gửi giấy đề nghị đăng ký thay đổi nội dung đăng ký hộ kinh doanh đến Cơ quan đăng ký kinh doanh cấp xã để cập nhật thông tin về thẻ Căn cước của chủ hộ kinh doanh, thành viên hộ gia đình đăng ký hộ kinh doanh.\n\n#### **Điều 124. Điều khoản thi hành**\n\n1. Nghị định này có hiệu lực từ ngày 01 tháng 7 năm 2025.",
+        "Chính phủ ban hành Nghị định số 141/2026/NĐ-CP ngày 29/4/2026 sửa đổi, bổ sung một số điều của Nghị định số 68/2026/NĐ-CP quy định về chính sách thuế đối với hộ kinh doanh, cá nhân kinh doanh và Nghị định số 320/2025/NĐ-CP quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập doanh nghiệp. Nghị định này có hiệu lực thi hành từ ngày 01/01/2026.\n\n## Nâng ngưỡng chịu thuế với hộ kinh doanh lên 01 tỷ đồng/năm"
+      ],
+      "sources": [
+        "article_01.json",
+        "article_02.json",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "168-2025-ND-CP-dang-ky-doanh-nghiep.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf"
+      ],
+      "retrieval_latency_seconds": 1.3561561729875393,
+      "generation_latency_seconds": 1.4944470649934374,
+      "best_dense_score": 0.663680374622345,
+      "error": null,
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 0.871356,
+        "context_recall": 1.0,
+        "context_precision": 0.75
+      }
+    }
+  },
+  "14": {
+    "question": "Khi đã nộp thuế theo ngưỡng cũ nhưng doanh thu năm không quá 1 tỷ đồng thì khoản tiền đã nộp được xử lý thế nào?",
+    "dense": {
+      "response": "Khi hộ kinh doanh hoặc cá nhân kinh doanh đã kê khai và nộp thuế (thuế thu nhập cá nhân, thuế giá trị gia tăng) theo chế độ cũ, nhưng doanh thu thực tế trong năm không vượt quá 1 tỷ đồng, khoản thuế đã nộp sẽ được **xử lý theo quy định tại Điều 12 của Nghị định số 68/2026/NĐ‑CP**.  \n\nCụ thể, Nghị định số 141/2026/NĐ‑CP quy định:  \n\n> “Trường hợp hộ kinh doanh, cá nhân kinh doanh tự xác định mức doanh thu năm từ hoạt động sản xuất, kinh doanh hàng hóa, dịch vụ từ 01 tỷ đồng trở xuống mà đã kê khai nộp thuế thu nhập cá nhân, thuế giá trị gia tăng theo quy định tại Nghị định số 68/2026/NĐ‑CP thì được xử lý tiền thuế đã nộp theo quy định tại Điều 12 Nghị định số 68/2026/NĐ‑CP.” [Document 1]  \n\nVì tài liệu chỉ nêu rằng tiền thuế đã nộp sẽ được xử lý “theo quy định tại Điều 12” và không cung cấp thêm chi tiết về cách thực hiện (hoàn trả, bù trừ, …), nên không thể xác định cụ thể hơn mà không có bằng chứng bổ sung.  \n\n**Kết luận:** Khoản thuế đã nộp khi doanh thu thực tế ≤ 1 tỷ đồng sẽ được xử lý theo Điều 12 của Nghị định 68/2026/NĐ‑CP; người nộp thuế cần tham khảo nội dung Điều 12 của Nghị định đó hoặc liên hệ cơ quan thuế để thực hiện thủ tục hoàn trả hoặc bù trừ tương ứng.  \n\n*(Câu trả lời chỉ mang tính tham khảo và không thay thế tư vấn pháp lý từ cơ quan có thẩm quyền.)*",
+      "contexts": [
+        "Nghị định số 141/2026/NĐ-CP cũng nêu rõ: Trường hợp hộ kinh doanh, cá nhân kinh doanh tự xác định mức doanh thu năm từ hoạt động sản xuất, kinh doanh hàng hóa, dịch vụ từ 01 tỷ đồng trở xuống mà đã kê khai nộp thuế thu nhập cá nhân, thuế giá trị gia tăng theo quy định tại Nghị định số 68/2026/NĐ-CP thì được xử lý tiền thuế đã nộp theo quy định tại Điều 12 Nghị định số 68/2026/NĐ-CP.",
+        "Theo số liệu tính toán của cơ quan thuế, hiện nay, số hộ, cá nhân có doanh thu dưới 01 tỷ đồng là khoảng 2.556.042 hộ, cá nhân. Với quy định mới này thì dự kiến số giảm thu ngân sách nhà nước là khoảng 16.650 tỷ đồng so với năm 2025 (thu theo chế độ thuế khoán và mức ngưỡng doanh thu không phải nộp thuế là 100 triệu đồng/năm) và giảm khoảng 4.850 tỷ đồng so với chính sách hiện hành đã điều chỉnh ngưỡng doanh thu miễn thuế lên 500 triệu/năm.",
+        "Theo Bộ Tài chính, để đồng bộ với ngưỡng doanh thu không phải nộp thuế của hộ, cá nhân kinh doanh thì ngưỡng thu nhập được miễn thuế của doanh nghiệp nhỏ là 01 tỷ đồng/năm, qua đó đảm bảo công bằng trong chính sách, giúp cho người nộp thuế lựa chọn mô hình kinh doanh phù hợp, góp phần khuyến khích các hộ kinh doanh chuyển đổi lên mô hình doanh nghiệp với chế độ quản trị chuyên nghiệp và có nhiều điều kiện để nâng cao hơn nữa quy mô, hiệu quả kinh doanh.",
+        "□ Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống\n\n□ Hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế\n\n□ Cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm",
+        "**THÔNG BÁO DOANH THU/TỜ KHAI THUẾ NĂM**\n\n*(Áp dụng đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống; hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế; cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm)*\n\n□ Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống"
+      ],
+      "sources": [
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "article_03.json",
+        "article_03.json"
+      ],
+      "retrieval_latency_seconds": 0.21660169298411347,
+      "generation_latency_seconds": 3.1172953579807654,
+      "best_dense_score": 0.7139979600906372,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.666667,
+        "answer_relevance": 0.904963,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    "hybrid": {
+      "response": "Theo Nghị định 141/2026/NĐ‑CP, nếu hộ kinh doanh hoặc cá nhân kinh doanh tự xác định doanh thu năm ≤ 1 tỷ đồng nhưng đã kê khai và nộp thuế thu nhập cá nhân, thuế giá trị gia tăng theo quy định của Nghị định 68/2026/NĐ‑CP, **tiền thuế đã nộp sẽ được xử lý theo quy định tại Điều 12 của Nghị định 68/2026/NĐ‑CP** [Document 2].  \n\nDo đó, khoản thuế đã nộp dưới mức ngưỡng cũ không tự động được hoàn lại; nó phải được thực hiện theo các thủ tục và quy định cụ thể được nêu trong Điều 12 của Nghị định 68/2026/NĐ‑CP (ví dụ: hoàn trả, bù trừ hoặc các hình thức xử lý khác mà Điều 12 quy định).  \n\n> *“...được xử lý tiền thuế đã nộp theo quy định tại Điều 12 Nghị định số 68/2026/NĐ‑CP.”* [Document 2]",
+      "contexts": [
+        "Theo số liệu tính toán của cơ quan thuế, hiện nay, số hộ, cá nhân có doanh thu dưới 01 tỷ đồng là khoảng 2.556.042 hộ, cá nhân. Với quy định mới này thì dự kiến số giảm thu ngân sách nhà nước là khoảng 16.650 tỷ đồng so với năm 2025 (thu theo chế độ thuế khoán và mức ngưỡng doanh thu không phải nộp thuế là 100 triệu đồng/năm) và giảm khoảng 4.850 tỷ đồng so với chính sách hiện hành đã điều chỉnh ngưỡng doanh thu miễn thuế lên 500 triệu/năm.",
+        "Nghị định số 141/2026/NĐ-CP cũng nêu rõ: Trường hợp hộ kinh doanh, cá nhân kinh doanh tự xác định mức doanh thu năm từ hoạt động sản xuất, kinh doanh hàng hóa, dịch vụ từ 01 tỷ đồng trở xuống mà đã kê khai nộp thuế thu nhập cá nhân, thuế giá trị gia tăng theo quy định tại Nghị định số 68/2026/NĐ-CP thì được xử lý tiền thuế đã nộp theo quy định tại Điều 12 Nghị định số 68/2026/NĐ-CP.",
+        "Theo Bộ Tài chính, để đồng bộ với ngưỡng doanh thu không phải nộp thuế của hộ, cá nhân kinh doanh thì ngưỡng thu nhập được miễn thuế của doanh nghiệp nhỏ là 01 tỷ đồng/năm, qua đó đảm bảo công bằng trong chính sách, giúp cho người nộp thuế lựa chọn mô hình kinh doanh phù hợp, góp phần khuyến khích các hộ kinh doanh chuyển đổi lên mô hình doanh nghiệp với chế độ quản trị chuyên nghiệp và có nhiều điều kiện để nâng cao hơn nữa quy mô, hiệu quả kinh doanh.",
+        "Bộ Tài chính cho biết, việc áp dụng mức doanh thu năm không phải nộp thuế thu nhập cá nhân của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm đồng thời nâng mức doanh thu không chịu thuế giá trị gia tăng của hộ, cá nhân kinh doanh lên 01 tỷ đồng/năm thống nhất với quy định hộ kinh doanh, cá nhân kinh doanh có mức doanh thu hằng năm từ 01 tỷ đồng trở lên sử dụng hóa đơn điện tử khởi tạo từ máy tính tiền kết nối chuyển dữ liệu điện tử với cơ quan thuế.",
+        "**THÔNG BÁO DOANH THU/TỜ KHAI THUẾ NĂM**\n\n*(Áp dụng đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống; hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế; cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm)*\n\n□ Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống"
+      ],
+      "sources": [
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "141-2026-ND-CP-sua-doi-thue-ho-kinh-doanh.pdf",
+        "article_03.json"
+      ],
+      "retrieval_latency_seconds": 1.3878008020110428,
+      "generation_latency_seconds": 2.731923913001083,
+      "best_dense_score": 0.7139979600906372,
+      "error": null,
+      "metrics": {
+        "faithfulness": 0.625,
+        "answer_relevance": 0.706382,
+        "context_recall": 0.0,
+        "context_precision": 0.5
+      }
+    }
+  }
+}

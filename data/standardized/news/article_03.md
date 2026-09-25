@@ -1,0 +1,495 @@
+---
+title: "Hướng dẫn thủ tục khai thuế đối với hộ kinh doanh, cá nhân kinh doanh"
+source: "article_03.json"
+url: "https://xaydungchinhsach.chinhphu.vn/huong-dan-thu-tuc-khai-thue-doi-voi-ho-kinh-doanh-ca-nhan-kinh-doanh-119260530072620314.htm"
+doc_type: "news"
+date_crawled: "2026-09-23T05:45:03.699416+00:00"
+---
+
+## **Khai thuế đối với hộ kinh doanh, cá nhân kinh doanh**
+
+**(Mã TTHC: 1.011022)**
+
+#### **- Trình tự thực hiện:**
+
+**+ Bước 1.**
+
+++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo mẫu số 01/TKN-CNKD ban hành kèm theo *Thông tư số [50/2026/TT-BTC](https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/50-btc.signed.pdf "50/2026/TT-BTC ") ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số [18/2026/TT-BTC](https://xaydungchinhsach.chinhphu.vn/thong-tu-18-2026-tt-btc-quy-dinh-ve-ho-so-thu-tuc-quan-ly-thue-voi-ho-ca-nhan-kinh-doanh-119260309174321852.htm "18/2026/TT-BTC")* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo thông báo đầu tiên của năm đối với hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC.
+
+++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế, khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo Tờ khai thuế đầu tiên của năm 2026) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC.
+
+++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất thì khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác trong năm theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo tờ khai thuế đầu tiên của năm 2026) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC, lập Bảng kê hàng tồn kho, máy móc, thiết bị (kèm theo hồ sơ khai thuế quý I năm 2026 đối với trường hợp khai thuế theo quý hoặc chậm nhất là ngày 20 tháng 4 năm 2026 đối với trường hợp khai thuế theo tháng) theo mẫu 01/BK-HTK ban hành kèm theo Thông tư số 18/2026/TT-BTC.
+
+**+ Bước 2.** Cơ quan thuế tiếp nhận hồ sơ của người nộp thuế theo quy định.
+
+#### *-* **Cách thức thực hiện:**
+
++ Bằng phương thức điện tử qua Cổng dịch vụ công Quốc gia hoặc ứng dụng định danh quốc gia theo quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính.
+
++ Nộp hồ sơ trực tiếp tại Trung tâm phục vụ hành chính công cấp tỉnh, xã; hoặc gửi hồ sơ qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật đến Trung tâm Phục vụ hành chính công cấp tỉnh, xã đối với trường hợp người nộp thuế thuộc đối tượng có hoàn cảnh đặc biệt, bao gồm người cao tuổi, người khuyết tật, người thuộc diện bảo trợ xã hội, người cư trú tại địa bàn có điều kiện kinh tế - xã hội đặc biệt khó khăn hoặc thuộc trường hợp bất khả kháng khác, không thể thực hiện giao dịch điện tử.
+
+#### *-* **Thành phần, số lượng hồ sơ:**
+
++ Thành phần hồ sơ gồm:
+
+++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng không chịu thuế giá trị gia tăng, không phải nộp thuế thu nhập cá nhân (bao gồm cả hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh): thông báo doanh thu thực tế phát sinh trong năm và kê khai các loại thuế khác theo mẫu số 01/TKN-CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo thông báo đầu tiên của năm đối với hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC.
+
+++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế: hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác là Tờ khai theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo Tờ khai thuế đầu tiên trong năm 2026) theo mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC
+
+++ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất: hồ sơ khai thuế giá trị gia tăng, thuế thu nhập cá nhân và các loại thuế khác trong năm là Tờ khai theo mẫu số 01/CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC* và thông báo số tài khoản/số hiệu ví điện tử (kèm theo tờ khai thuế đầu tiên trong năm 2026) theo mẫu 01/BK-STK, Phụ lục Bảng kê hàng tồn kho, máy móc, thiết bị (kèm theo hồ sơ khai thuế quý I năm 2026 đối với trường hợp khai thuế theo quý hoặc chậm nhất là ngày 20 tháng 4 năm 2026 đối với trường hợp khai thuế theo tháng) theo mẫu 01/BK-HTK ban hành kèm theo Thông tư số 18/2026/TT-BTC
+
++ Số lượng hồ sơ: 01 (bộ)
+
+*-* **Thời hạn giải quyết:** Không quy định.
+
+*-* **Đối tượng thực hiện thủ tục hành chính:** Hộ kinh doanh, cá nhân kinh doanh.
+
+*-* **Cơ quan giải quyết thủ tục hành chính:** Thuế cơ sở.
+
+*-* **Kết quả thực hiện thủ tục hành chính:** Không phải trả kết quả cho người nộp thuế.
+
+*-* **Lệ phí:** Không.
+
+*-* **Tên mẫu đơn, mẫu tờ khai:**
+
++ Tờ khai thuế đối với hộ kinh doanh, cá nhân kinh doanh mẫu số 01/CNKD theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC.*
+
++ Thông báo doanh thu/Tờ khai thuế năm mẫu 01/TKN-CNKD ban hành kèm theo *Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC.*
+
++ Phụ lục thông báo số tài khoản/số hiệu ví điện tử mẫu 01/BK-STK ban hành kèm theo Thông tư số 18/2026/TT-BTC.
+
++ Phụ lục Bảng kê hàng tồn kho, máy móc, thiết bị mẫu 01/BK-HTK ban hành kèm theo Thông tư số 18/2026/TT-BTC.
+
+*-* **Yêu cầu, điều kiện thực hiện thủ tục hành chính:** Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng, đầy đủ các quy định và điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế tại Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế và Thông tư số 46/2024/TT-BTC ngày 09/07/2024 sửa đổi, bổ sung một số điều của Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế.
+
+*-* **Căn cứ pháp lý của thủ tục hành chính:**
+
++ Luật Quản lý Thuế số 108/2025/QH15;
+
++ Nghị định số 118/2025/NĐ-CP ngày 09/6/2025 của Chính phủ về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại bộ phận một cửa và cổng dịch vụ công quốc gia;
+
++ Nghị định số 68/2026/NĐ-CP ngày 05/3/2026 của Chính phủ quy định về chính sách thuế và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh;
+
+*+ Nghị định số 141/2026/NĐ-CP ngày 29/4/2026 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 68/2026/NĐ-CP quy định về chính sách thuế đối với hộ kinh doanh, cá nhân kinh doanh và Nghị định số 320/2025/NĐ-CP quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập doanh nghiệp;*
+
++ Thông tư số 18/2026/TT-BTC ngày 05/3/2026 của Bộ trưởng Bộ Tài chính quy định về hồ sơ, thủ tục quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh;
+
+*+ Thông tư số 50/2026/TT-BTC ngày 13/5/2026 sửa đổi, bổ sung một số điều của Thông tư số 18/2026/TT-BTC ngày 05/3/2026 của Bộ trưởng Bộ Tài chính quy định về hồ sơ, thủ tục quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh;*
+
++ Thông tư số 19/2021/TT-BTC ngày 18/03/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế, Thông tư số 46/2024/TT-BTC ngày 09/7/2024 của Bộ trưởng Bộ Tài chính sửa đổi, bổ sung một số điều của Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế.
+
+**- Mẫu đơn, mẫu tờ khai đính kèm:**
+
+|  |
+| --- |
+| **Mẫu số: 01/CNKD**  *(Kèm theo Thông tư số 50/2026/TT-BTC ngày 13/5/2026 của Bộ trưởng Bộ Tài chính)* |
+
+**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
+ Độc lập - Tự do - Hạnh phúc**  
+ **---------------**
+
+**TỜ KHAI THUẾ ĐỐI VỚI HỘ KINH DOANH, CÁ NHÂN KINH DOANH**
+
+*(Áp dụng cho hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng)*
+
+□ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế TNCN trên doanh thu tính thuế
+
+□ Hộ kinh doanh, cá nhân kinh doanh thuộc đối tượng nộp thuế TNCN trên thu nhập tính thuế
+
+**□** Hộ kinh doanh, cá nhân kinh doanh chỉ có hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác không có chức năng đặt hàng trực tuyến và chức năng thanh toán
+
+□ Hộ kinh doanh, cá nhân kinh doanh khai các loại thuế khác (thuế TTĐB, thuế tài nguyên, thuế/phí bảo vệ môi trường)
+
+□ Trường hợp đề nghị cấp hóa đơn điện tử có mã của cơ quan thuế theo lần phát sinh
+
+|  |  |
+| --- | --- |
+| **[01]** Kỳ tính thuế: | [01a] Tháng .... năm .............  [01b] Quý .... năm ................  [01c] Lần phát sinh .............. |
+| **[02]** Lần đầu: □ | **[03]** Bổ sung lần thứ:.... □ |
+
+**[04] Người nộp thuế:** ...........................................................................................................
+
+**[05]** Mã số thuế: ………………………………………………………………………………….....
+
+**[06] Tổ chức/cá nhân khai, nộp thuế thay theo ủy quyền (nếu có):** ...............................
+
+**[06.1]** Mã số thuế: …………………………………………………………………………….........
+
+**[06.2]** Văn bản ủy quyền (nếu có): Số ..................................... ngày ..... tháng ..... năm.......
+
+**[07] Tên đại lý thuế (nếu có):** ...............................................................................................
+
+**[07.1]** Mã số thuế: ..................................................................................................................
+
+**A. KÊ KHAI THUẾ GTGT, TNCN**
+
+*Đơn vị tiền: Đồng Việt Nam*
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **STT** | **Nhóm ngành nghề** | **Mã chỉ tiêu** | **Thuế GTGT** | | | | **Thuế TNCN** | | |
+| **Tổng doanh thu** | **Trong đó: doanh thu không chịu thuế GTGT** | **Trong đó: doanh thu chịu thuế suất 0%** | **Số thuế phải nộp** | **Doanh thu chịu thuế** | **Doanh thu được trừ để xác định doanh thu tính thuế** | **Số thuế phải nộp** |
+| **[08]** | **[09]** | **[10]** | **[11]** | **[12]** | **[13]** | **[14]** | **[15]** | **[16]** | **[17]** |
+| **I** | **Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ có địa điểm kinh doanh cố định** | | | | | | | | |
+| 1 | Trụ sở kinh doanh: | | | | | | | | |
+| 1.1 | Phân phối, cung cấp hàng hóa | **(a)** |  |  |  |  |  |  |  |
+| 1.2 | Dịch vụ, xây dựng không bao thầu nguyên vật liệu | **(b)** |  |  |  |  |  |  |  |
+| 1.3 | Hoạt động cho thuê tài sản trừ bất động sản | **(c)** |  |  |  |  |  |  |  |
+| 1.4 | Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu | **(d)** |  |  |  |  |  |  |  |
+| 1.5 | Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số | **(đ)** |  |  |  |  |  |  |  |
+| 1.6 | Hoạt động kinh doanh khác | **(e)** |  |  |  |  |  |  |  |
+| 2 | Mã địa điểm kinh doanh 1:  Tên địa điểm kinh doanh 1: | | | | | | | | |
+| 2.1 |  |  |  |  |  |  |  |  |  |
+| …. |  |  |  |  |  |  |  |  |  |
+| **II** | **Hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác không có chức năng đặt hàng trực tuyến và chức năng thanh toán** | | | | | | | | |
+|  | Mã địa điểm kinh doanh:  Tên địa điểm kinh doanh: | | | | | | | | |
+| 1 | Phân phối, cung cấp hàng hóa | **(a)** |  |  |  |  |  |  |  |
+| 2 | Dịch vụ, xây dựng không bao thầu nguyên vật liệu | **(b)** |  |  |  |  |  |  |  |
+| 3 | Hoạt động cho thuê tài sản trừ bất động sản | **(c)** |  |  |  |  |  |  |  |
+| 4 | Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu | **(d)** |  |  |  |  |  |  |  |
+| 5 | Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số | **(đ)** |  |  |  |  |  |  |  |
+| 6 | Hoạt động kinh doanh khác | **(e)** |  |  |  |  |  |  |  |
+| **III** | **Hoạt động cấp hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh** | | | | | | | | |
+|  | …. |  |  |  |  |  |  |  |  |
+| **IV** | **Tổng cộng** | **[18]** |  |  |  |  |  |  |  |
+| **V** | **Số thuế được miễn** | **[19]** |  |  |  |  |  |  |  |
+| **VI** | **Số thuế còn phải nộp** | **[20]** |  |  |  |  |  |  |  |
+
+**B. KÊ KHAI THUẾ TIÊU THỤ ĐẶC BIỆT**
+
+*Đơn vị tiền: Đồng Việt Nam*
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| **STT** | **Hàng hóa, dịch vụ chịu thuế TTĐB** | **Mã chỉ tiêu** | **Đơn vị tính** | **Doanh thu tính thuế TTĐB** | **Thuế suất** | **Số thuế phải nộp** |
+| **(1)** | **(2)** | **(3)** | **(4)** | **(5)** | **(6)** | **(7)=(5)\*(6)** |
+| **I** | **Trụ sở kinh doanh:** | | | | | |
+| 1 | Hàng hóa, dịch vụ A | **[21a]** |  |  |  |  |
+| 2 | Hàng hóa, dịch vụ B | **[21b]** |  |  |  |  |
+|  |  | … |  |  |  |  |
+| **II** | **Mã địa điểm kinh doanh 1:**  **Tên địa điểm kinh doanh 1:** | | | | | |
+| … | ........................... |  |  |  |  |  |
+|  | **Tổng cộng:** | **[22]** |  |  |  |  |
+|  | **Số thuế được miễn** | **[23]** |  |  |  |  |
+|  | **Số thuế còn phải nộp** | **[24]** |  |  |  |  |
+
+**C. KÊ KHAI THUẾ TÀI NGUYÊN, BẢO VỆ MÔI TRƯỜNG, PHÍ BẢO VỆ MÔI TRƯỜNG**
+
+*Đơn vị tiền: Đồng Việt Nam*
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **STT** | **Tài nguyên, hàng hóa, sản phẩm** | **Trụ sở kinh doanh/Mã địa điểm kinh doanh** | **Tên địa điểm kinh doanh** | **Mã chỉ tiêu** | **Đơn vị tính** | **Sản lượng/ Số lượng** | **Giá tính thuế tài nguyên/ mức thuế hoặc phí BVMT** | **Thuế suất/Hệ số K tính phí BVMT** | **Số thuế/phí phải nộp** |
+| **(1)** | **(2)** | **(3)** | **(4)** | **(5)** | **(6)** | **(7)** | **(8)** | **(9)** | **(10)** |
+| **I** | **Khai thuế tài nguyên** | | | | | | | | |
+| 1 | Tài nguyên C.. |  |  | **[25a]** |  |  |  |  | (10)=(7)\*(8)\*(9) |
+| 2 | Tài nguyên D.. |  |  | **[25b]** |  |  |  |  |  |
+|  | .................... |  |  |  |  |  |  |  |  |
+|  | **Tổng cộng** | | | | | | | | **[26]** |
+|  | **Số thuế được miễn** | | | | | | | | **[27]** |
+|  | **Số thuế còn phải nộp** | | | | | | | | **[28]** |
+| **II** | **Khai thuế bảo vệ môi trường** | | | | | | | | |
+| 2.1 | Hàng hóa E... |  |  | **[29a]** |  |  |  |  | (10)=(7)\*(8) |
+| 2.2 | Hàng hóa G... |  |  | **[29b]** |  |  |  |  |  |
+|  | .................... |  |  |  |  |  |  |  |  |
+|  | **Tổng cộng** | | | | | | | | **[30]** |
+|  | **Số thuế được miễn** | | | | | | | | **[31]** |
+|  | **Số thuế còn phải nộp** | | | | | | | | **[32]** |
+| **III** | **Khai phí bảo vệ môi trường đối với khai thác khoáng sản** | | | | | | | | |
+| 3.1 | Khoáng sản H... |  |  | **[33a]** |  |  |  |  | (10) = (7)\*(8)\*(9) |
+| 3.2 | Khoáng sản K... |  |  | **[33b]** |  |  |  |  |  |
+|  | .................. |  |  |  |  |  |  |  |  |
+|  | **Tổng cộng** | | | | | | | | **[34]** |
+|  | **Số phí được miễn** | | | | | | | | **[35]** |
+|  | **Số phí còn phải nộp** | | | | | | | | **[36]** |
+
+**D. HỖ TRỢ TỰ ĐỘNG THÔNG TIN NỘP THUẾ**
+
+*Đơn vị tiền: Đồng Việt Nam*
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **STT** | **Mã địa điểm kinh doanh** | **Nội dung các khoản nộp NSNN** | **Số tiền** | **Chương** | **Tiểu mục** | **Địa bàn hành chính** | **Cơ quan thu** | **Cơ quan thuế** | **Hạn nộp thuế** |
+| **[37]** | **[38]** | **[39]** | **[40]** | **[41]** | **[42]** | **[43]** | **[44]** | **[45]** | **[46]** |
+|  |  |  |  |  |  |  |  |  |  |
+| … |  |  |  |  |  |  |  |  |  |
+| **Tổng cộng** | | | **[47]** |  |  |  |  |  |  |
+
+***Bạn còn được tiếp tục trừ…. đồng vào doanh thu tính thuế TNCN của kỳ tiếp theo***
+
+Tôi cam đoan những nội dung kê khai trên là đúng và chịu trách nhiệm trước pháp luật về những nội dung đã khai./.
+
+|  |  |
+| --- | --- |
+| **NHÂN VIÊN ĐẠI LÝ THUẾ**  Họ và tên: ................................  Chứng chỉ hành nghề số: ......... | *………., ngày ... tháng ... năm ..…..*  **NGƯỜI NỘP THUẾ hoặc  ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ**  *(Ký, ghi rõ họ tên/ Ký điện tử)* |
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+***Ghi chú:***
+
+*TNCN: Thu nhập cá nhân*
+
+*GTGT: Giá trị gia tăng*
+
+*TTĐB: Tiêu thụ đặc biệt*
+
+*BVMT: Bảo vệ môi trường*
+
+*- Chỉ tiêu [01a]: dành cho hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 50 tỷ đồng.*
+
+*- Chỉ tiêu [01b]: dành cho hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng đến 50 tỷ đồng.*
+
+*- Chỉ tiêu [01c]: dành cho hộ kinh doanh, cá nhân kinh doanh thực hiện khai và nộp thuế trước khi được cơ quan thuế cấp hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh.*
+
+*- Số thuế được miễn: là số tiền thuế phát sinh phải nộp được miễn theo mức quy định của Chính phủ.*
+
+*- Trường hợp hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thuế suất nhân (x) với doanh thu tính thuế thì hộ kinh doanh, cá nhân kinh doanh kê khai doanh thu và số thuế giá trị gia tăng, thuế thu nhập cá nhân phải nộp theo từng địa điểm kinh doanh.*
+
+*- Trường hợp hộ kinh doanh, cá nhân kinh doanh nộp thuế thu nhập cá nhân theo phương pháp thu nhập tính thuế nhân (x) với thuế suất thì hộ kinh doanh, cá nhân kinh doanh kê khai doanh thu từng địa điểm kinh doanh và thực hiện nộp thuế giá trị gia tăng theo từng địa điểm kinh doanh, tạm nộp thuế thu nhập cá nhân tại trụ sở chính.*
+
+*- Chỉ tiêu [14]: Đối với cá nhân kinh doanh nộp thuế thu nhập cá nhân trên doanh thu tính thuế có nhiều ngành, nghề kinh doanh áp dụng thuế suất thuế thu nhập cá nhân khác nhau, có nhiều địa điểm kinh doanh thì được lựa chọn một (01) ngành, nghề hoặc một (01) địa điểm kinh doanh để áp dụng mức trừ 01 tỷ đồng trước khi tính thuế thu nhập cá nhân theo phương án có lợi nhất. Trường hợp ngành, nghề, địa điểm kinh doanh được lựa chọn chưa trừ đủ 01 tỷ đồng, cá nhân được tiếp tục lựa chọn thêm ngành, nghề, địa điểm kinh doanh khác để tiếp tục được trừ cho đến khi đủ 01 tỷ đồng.*
+
+*- Chỉ tiêu [3.1], [3.2]…tại khoản III, mục C: bao gồm khoáng sản và đất đá bóc, đất đá thải (nếu có).*
+
+*- Hệ số K tính phí bảo vệ môi trường đối với khai thác khoáng sản thực hiện theo quy định tại Nghị định số 27/2023/NĐ-CP và các văn bản sửa đổi bổ sung (nếu có).*
+
+|  |
+| --- |
+| Mẫu số: **01/TKN-CNKD** *(Kèm theo Thông tư số 50/2026/TT-BTC ngày 13/5/2026 của Bộ trưởng Bộ Tài chính)* |
+
+**CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM  
+ Độc lập - Tự do - Hạnh phúc**  
+ **--------------**
+
+**THÔNG BÁO DOANH THU/TỜ KHAI THUẾ NĂM**
+
+*(Áp dụng đối với hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống; hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế; cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm)*
+
+□ Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống
+
+□ Hộ kinh doanh, cá nhân kinh doanh mới ra kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống
+
+□ Hộ kinh doanh, cá nhân kinh doanh nộp thuế TNCN theo phương pháp thuế suất nhân với doanh thu tính thuế đề nghị hoàn thuế
+
+□ Cá nhân trực tiếp ký hợp đồng làm đại lý xổ số, bảo hiểm, bán hàng đa cấp, hoạt động kinh doanh khác chưa khấu trừ, nộp thuế trong năm
+
+□ Cho phép điều chỉnh, bổ sung các tờ khai Mẫu số 01/CNKD đã kê khai theo Thông tư số 40/2021/TT-BTC, Thông tư số 18/2026/TT-BTC; tờ khai Mẫu số 02/TMĐT đã kê khai theo Nghị định số 117/2025/NĐ-CP
+
+|  |  |  |
+| --- | --- | --- |
+|  | **[01]** Kỳ tính thuế: | [01a] Năm………  [01b] 6 tháng đầu năm…..  [01c] 6 tháng cuối năm…. |
+|  | **[02]** Lần đầu: □ | **[03]** Bổ sung lần thứ:.... □ |
+
+**[04]** **Người nộp thuế:** ……………………………………………………...…………..................
+
+**[05]** Mã số thuế: ………………………………………………….........……….............................
+
+**[06] Tổ chức/cá nhân kê khai, nộp thuế thay theo ủy quyền (nếu có):** ….…..................
+
+**[06.1]** Mã số thuế: ………………………………………………...............................….....…......
+
+**[06.2]** Văn bản uỷ quyền (nếu có): Số………ngày……tháng……năm………….....................
+
+**[07] Tên đại lý thuế (nếu có):** ………………………………………….....................................
+
+**[07.1]** Mã số thuế:...................................................................................................................
+
+**A. XÁC ĐỊNH NGHĨA VỤ THUẾ GTGT, TNCN**
+
+*Đơn vị tiền: Đồng Việt Nam*
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **STT** | **Chỉ tiêu** | **Mã chỉ tiêu** | **Thuế GTGT** | | | | **Thuế TNCN** | | | **Số tiền người nộp thuế trực tiếp nộp vào NSNN** | | **Số tiền do tổ chức khấu trừ, nộp thay** | | **Số thuế phải nộp thêm** | | **Số thuế nộp thừa** | |
+| **Tổng doanh thu** | **Trong đó: doanh thu không chịu thuế GTGT** | **Trong đó: doanh thu chịu thuế suất 0%** | **Số thuế phải nộp** | **Doanh thu chịu thuế** | **Doanh thu được trừ để xác định doanh thu tính thuế** | **Số thuế phải nộp** | **GTGT** | **TNCN** | **GTGT** | **TNCN** | **GTGT** | **TNCN** | **GTGT** | **TNCN** |
+| **(1)** | **(2)** | **(3)** | **(4)** | **(5)** | **(6)** | **(7)** | **(8)** | **(9)** | **(10)** | **(11)** | **(12)** | **(13)** | **(14)** | **(15)** |
+| **1** | **Hoạt động sản xuất, kinh doanh hàng hóa, cung cấp dịch vụ có địa điểm kinh doanh cố định** | **[08]** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 1.1 | Phân phối, cung cấp hàng hóa | [08a] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 1.2 | Dịch vụ, xây dựng không bao thầu nguyên vật liệu | [08b] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 1.3 | Hoạt động cho thuê tài sản trừ bất động sản | [08c] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 1.4 | Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu | [08d] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 1.5 | Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số | [08e] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 1.6 | Hoạt động kinh doanh khác | [08g] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **2** | **Hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số khác** | **[09]** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 2.1 | Phân phối, cung cấp hàng hóa | [09a] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 2.2 | Dịch vụ, xây dựng không bao thầu nguyên vật liệu | [09b] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 2.3 | Hoạt động cho thuê tài sản trừ bất động sản | [09c] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 2.4 | Sản xuất, vận tải, dịch vụ có gắn với hàng hóa, xây dựng có bao thầu nguyên vật liệu | [09d] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 2.5 | Hoạt động cung cấp sản phẩm nội dung thông tin số về giải trí, trò chơi điện tử, phim số, ảnh số, nhạc số, quảng cáo số | [09e] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| 2.6 | Hoạt động kinh doanh khác | [09g] |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **3** | **Hoạt động đại lý xổ số, bảo hiểm, bán hàng đa cấp** | **[10]** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **4** | **Tổng cộng** | **[11]** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **5** | **Số thuế được miễn** | **[12]** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **6** | **Số thuế còn phải nộp** | **[13]** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+**B. KÊ KHAI THUẾ TIÊU THỤ ĐẶC BIỆT**
+
+*Đơn vị tiền: Đồng Việt Nam*
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| **STT** | **Hàng hóa, dịch vụ chịu thuế TTĐB** | **Mã chỉ tiêu** | **Đơn vị tính** | **Doanh thu tính thuế TTĐB** | **Thuế suất** | **Số thuế phải nộp** |
+| **(1)** | **(2)** | **(3)** | **(4)** | **(5)** | **(6)** | **(7)=(5)\*(6)** |
+| **I** | **Trụ sở kinh doanh:** | | | | | |
+| 1 | Hàng hóa, dịch vụ A | **[14a]** |  |  |  |  |
+| 2 | Hàng hóa, dịch vụ B | **[14b]** |  |  |  |  |
+|  |  | … |  |  |  |  |
+| **II** | **Mã địa điểm kinh doanh 1:**  **Tên địa điểm kinh doanh 1:** | | | | | |
+| … | ........................... |  |  |  |  |  |
+|  | **Tổng cộng:** | **[15]** |  |  |  |  |
+|  | **Số thuế được miễn** | **[16]** |  |  |  |  |
+|  | **Số thuế còn phải nộp** | **[17]** |  |  |  |  |
+
+**C. KÊ KHAI THUẾ TÀI NGUYÊN, BẢO VỆ MÔI TRƯỜNG, PHÍ BẢO VỆ MÔI TRƯỜNG**
+
+*Đơn vị tiền: Đồng Việt Nam*
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **STT** | **Tài nguyên, hàng hóa, sản phẩm** | **Trụ sở kinh doanh/Mã địa điểm kinh doanh** | **Tên địa điểm kinh doanh** | **Mã chỉ tiêu** | **Đơn vị tính** | **Sản lượng/ Số lượng** | **Giá tính thuế tài nguyên/ mức thuế hoặc phí BVMT** | **Thuế suất/Hệ số K tính phí BVMT** | **Số thuế/phí phải nộp** |
+| **(1)** | **(2)** | **(3)** | **(4)** | **(5)** | **(6)** | **(7)** | **(8)** | **(9)** | **(10)** |
+| **I** | **Khai thuế tài nguyên** | | | | | | | | |
+| 1 | Tài nguyên C.. |  |  | **[18a]** |  |  |  |  | (10)=(7)\*(8)\*(9) |
+| 2 | Tài nguyên D.. |  |  | **[18b]** |  |  |  |  |  |
+|  | ....................... |  |  |  |  |  |  |  |  |
+|  | **Tổng cộng** | | | | | | | | **[19]** |
+|  | **Số thuế được miễn** | | | | | | | | **[20]** |
+|  | **Số thuế còn phải nộp** | | | | | | | | **[21]** |
+| **II** | **Khai thuế bảo vệ môi trường** | | | | | | | | |
+| 2.1 | Hàng hóa E... |  |  | **[22a]** |  |  |  |  | (10)=(7)\*(8) |
+| 2.2 | Hàng hóa G... |  |  | **[22b]** |  |  |  |  |  |
+|  | ...................... |  |  |  |  |  |  |  |  |
+|  | **Tổng cộng** | | | | | | | | **[23]** |
+|  | **Số thuế được miễn** | | | | | | | | **[24]** |
+|  | **Số thuế còn phải nộp** | | | | | | | | **[25]** |
+| **III** | **Khai phí bảo vệ môi trường đối với khai thác khoáng sản** | | | | | | | | |
+| 3.1 | Khoáng sản X... |  |  | **[26a]** |  |  |  |  | (10)=(7)\*(8)\*(9) |
+| 3.2 | Khoáng sản Y... |  |  | **[26b]** |  |  |  |  |  |
+|  | ...................... |  |  |  |  |  |  |  |  |
+|  | **Tổng cộng** | | | | | | | | **[27]** |
+|  | **Số phí được miễn** | | | | | | | | **[28]** |
+|  | **Số phí còn phải nộp** | | | | | | | | **[29]** |
+
+**D. HỖ TRỢ THÔNG TIN NỘP THUẾ**
+
+*Đơn vị tiền: Đồng Việt Nam*
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **STT** | **Mã địa điểm kinh doanh** | **Nội dung các khoản nộp NSNN** | **Số tiền** | **Chương** | **Tiểu mục** | **Địa bàn hành chính** | **Cơ quan thu** | **Cơ quan thuế** | **Hạn nộp thuế** |
+| **[30]** | **[31]** | **[32]** | **[33]** | **[34]** | **[35]** | **[36]** | **[37]** | **[38]** | **[39]** |
+| … |  |  |  |  |  |  |  |  |  |
+|  |  | **Tổng cộng** | **[40]** |  |  |  |  |  |  |
+
+**E. ĐỀ NGHỊ XỬ LÝ KHOẢN NỘP THỪA**
+
+**[41]** Đề nghị hoàn trả:
+
+**[41.1]** Số thuế GTGT: ……………………………………........................................................
+
+**[41.2]** Số thuế TNCN: ………………………………………………..........................................
+
+**[41.3]** Tổng cộng: ………………………………………………….............................................
+
+**[42]** Hình thức hoàn trả:
+
+**[43]** ☐ Chuyển khoản.
+
+**[43.1]** Tên chủ tài khoản: …………………………………………............................................
+
+**[43.2]** Tài khoản số: ......................... **[43.3]** Tại Ngân hàng/KBNN:......................................
+
+**[44]** ☐ Tiền mặt.
+
+**[44.1]** Tên người nhận tiền: ……………………………………................................................
+
+**[44.2]** Số CCCD/Số định danh cá nhân/Số Hộ chiếu: ………. **[44.3]** Ngày cấp:……./…../…… **[44.4]** Nơi cấp: ..............................................
+
+**[44.5]** Nơi nhận tiền hoàn thuế: Kho bạc Nhà nước ………………………………………….....
+
+Thông tin người nộp thuế đề nghị bù trừ khoản nộp thừa với khoản nợ, khoản thu phát sinh hoặc đề nghị hoàn kiêm bù trừ thu ngân sách nhà nước:
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **STT** | **Thông tin khoản nợ/khoản thu phát sinh** | | | | | | | | | | **Số tiền còn phải nộp đề nghị bù trừ với số tiền nộp thừa** | **Số tiền còn phải nộp sau bù trừ** |
+| **Mã số thuế** | **Tên NNT** | **Số định danh khoản phải nộp (ID)**  **(nếu có)** | **Nội dung khoản nợ/phát sinh** | **Chương** | **Tiểu mục** | **Cơ quan thu** | **Địa bàn hành chính** | **Hạn nộp** | **Số tiền còn phải nộp** |  |  |
+| **[45]** | **[46]** | **[47]** | **[48]** | **[49]** | **[50]** | **[51]** | **[52]** | **[53]** | **[54]** | **[55]** | **[56]** | **[57]=[55]-[56]** |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+Tôi cam đoan những nội dung kê khai trên là đúng và chịu trách nhiệm trước pháp luật về những nội dung đã khai./.
+
+|  |  |
+| --- | --- |
+| **NHÂN VIÊN ĐẠI LÝ THUẾ** Họ và tên: ……………………..  Chứng chỉ hành nghề số:............ | *....., ngày ..... tháng ....... năm ......* **NGƯỜI NỘP THUẾ hoặc**  **ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ**  *(Ký, ghi rõ họ tên/ Ký điện tử)* |
+
+*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_*
+
+***Ghi chú:***
+
+*- Đối với trường hợp hộ kinh doanh, cá nhân kinh doanh có doanh thu năm từ 01 tỷ đồng trở xuống thì chỉ thực hiện thông báo doanh thu; không thực hiện khai số thuế GTGT, thuế TNCN phải nộp.*
+
+*- Chỉ tiêu [3.1], [3.2]…tại khoản III, mục C: bao gồm khoáng sản và đất đá bóc, đất đá thải (nếu có).*
+
+*- Hệ số K tính phí bảo vệ môi trường đối với khai thác khoáng sản thực hiện theo quy định tại Nghị định số 27/2023/NĐ-CP và các văn bản sửa đổi bổ sung (nếu có)*
+
+|  |
+| --- |
+| Mẫu số: **01/BK-STK** *(Kèm theo Thông tư số 18/2026/TT-BTC ngày 05/3/2026 của Bộ trưởng Bộ Tài chính)* |
+
+**THÔNG BÁO SỐ TÀI KHOẢN/SỐ HIỆU VÍ ĐIỆN TỬ**
+
+**[01] Người nộp thuế:** …………………………………………………………………………….
+
+**[02]** Mã số thuế: ……………………………………………………………………………………
+
+Thông báo về số tài khoản ngân hàng/số hiệu ví điện tử liên quan đến sản xuất, kinh doanh của hộ kinh doanh, cá nhân kinh doanh như sau:
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| **STT** | **Tên địa điểm kinh doanh** | **Mã địa điểm kinh doanh** | **Số tài khoản ngân hàng/Số hiệu ví điện tử** | **Tên chủ tài khoản** | **Mở tại tổ chức cung ứng dịch vụ thanh toán/Tổ chức cung ứng dịch vụ trung gian thanh toán** | **Trạng thái tài khoản (đóng/khai lần đầu/thay đổi thông tin)** |
+| **[03]** | **[04]** | **[05]** | **[06]** | **[07]** | **[08]** | **[09]** |
+|  | **...** |  |  |  |  |  |
+|  | **...** |  |  |  |  |  |
+
+Tôi cam kết những nội dung kê khai là đúng và chịu trách nhiệm trước pháp luật về những nội dung đã khai./.
+
+|  |  |
+| --- | --- |
+| **NHÂN VIÊN ĐẠI LÝ THUẾ**  Họ và tên: ................................  Chứng chỉ hành nghề số: ......... | *………., ngày ... tháng ... năm ..…..* **NGƯỜI NỘP THUẾ hoặc  ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ** *(Chữ ký, ghi rõ họ tên/ Ký điện tử)* |
+
+|  |
+| --- |
+| **Mẫu số: 01/BK-HTK** *(Kèm theo Thông tư số 18/2026/TT-BTC ngày 05/3/2026 của Bộ trưởng Bộ Tài chính* |
+
+**BẢNG KÊ HÀNG TỒN KHO, MÁY MÓC, THIẾT BỊ CỦA HỘ KINH DOANH, CÁ NHÂN KINH DOANH**
+
+*(Áp dụng đối với hộ kinh doanh, cá nhân kinh doanh trong năm 2025 có mức doanh thu từ 3 tỷ đồng trở lên hoặc từ năm 2026 lựa chọn nộp thuế thu nhập cá nhân trên thu nhập tính thuế)*
+
+[01] Tên người nộp thuế: …………………………………………………………………
+
+[02] Mã số thuế: …………………………………………………………………………….
+
+*Đơn vị tiền: Đồng Việt Nam*
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| **STT** | **Hàng tồn kho, máy móc, thiết bị** | **Đơn vị tính của hàng tồn kho, máy móc, thiết bị** | **Tồn kho tại ngày 31/12/2025** | |
+| **Số lượng** | **Giá trị** |
+| **[03]** | **[04]** | **[05]** | **[06]** | **[07]** |
+| **I** | **HÀNG HÓA, SẢN PHẨM TỒN KHO** |  |  |  |
+| **1** | Hàng hóa A/ Nhóm hàng hóa X |  |  |  |
+| **2** | Sản phẩm B/ Nhóm sản phẩm Y |  |  |  |
+|  | …….. |  |  |  |
+|  | **Tổng cộng** |  | **[08]** | **[09]** |
+| **II** | **MÁY MÓC, THIẾT BỊ** |  |  |  |
+| **1** | … |  |  |  |
+| **2** | … |  |  |  |
+|  | **Tổng cộng** |  | **[10]** | **[11]** |
+|  | **Tổng cộng** | | **[12]** | **[13]** |
+
+Tôi cam đoan những nội dung kê khai trên là đúng và chịu trách nhiệm trước pháp luật về những nội dung đã khai./.
+
+|  |  |
+| --- | --- |
+| **NHÂN VIÊN ĐẠI LÝ THUẾ** Họ và tên: ................................  Chứng chỉ hành nghề số: ......... | *………., ngày ... tháng ... năm .….*  **NGƯỜI NỘP THUẾ hoặc  ĐẠI DIỆN HỢP PHÁP CỦA NGƯỜI NỘP THUẾ** *(Chữ ký, ghi rõ họ tên; chức vụ và đóng dấu (nếu có)/ Ký điện tử)* |
