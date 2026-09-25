@@ -13,11 +13,14 @@ chạy lại pipeline không tạo dữ liệu trùng. Task 5 phải dùng chung
 
 import json
 import os
+import re
 from functools import lru_cache
 from pathlib import Path
 
 from dotenv import load_dotenv
 
+
+load_dotenv()
 
 STANDARDIZED_DIR = Path(__file__).parent.parent / "data" / "standardized"
 CHROMA_DIR = Path(__file__).parent.parent / "chroma_db"
@@ -27,59 +30,58 @@ CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
 CHUNKING_METHOD = "recursive"
 
-load_dotenv()
-
-EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-m3")
-EMBEDDING_DIM = int(os.getenv("EMBEDDING_DIM", "1024"))
-EMBEDDING_DEVICE = os.getenv("EMBEDDING_DEVICE", "cpu")
-EMBEDDING_BATCH_SIZE = int(os.getenv("EMBEDDING_BATCH_SIZE", "8"))
-EMBEDDING_LOCAL_FILES_ONLY = os.getenv(
-    "EMBEDDING_LOCAL_FILES_ONLY", "false"
-).lower() in {"1", "true", "yes"}
-
-# Phương án A/B bổ sung; không dùng làm model mặc định.
-ALTERNATIVE_EMBEDDING_MODELS = {
-    "dangvantuan/vietnamese-embedding": 768,
+EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER") or "sentence_transformers"
+DEFAULT_EMBEDDING_MODELS = {
+    "sentence_transformers": "BAAI/bge-m3",
+    "openai": "text-embedding-3-small",
+    "gemini": "text-embedding-004",
 }
-
-_model_slug = EMBEDDING_MODEL.lower().replace("/", "_").replace("-", "_")
-COLLECTION_NAME = os.getenv(
-    "CHROMA_COLLECTION", f"rag_documents_{_model_slug}_{EMBEDDING_DIM}"
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL") or DEFAULT_EMBEDDING_MODELS.get(
+    EMBEDDING_PROVIDER, "BAAI/bge-m3"
 )
+EMBEDDING_DIM = 1024
+EMBEDDING_BATCH_SIZE = 64
 
+COLLECTION_NAME = "rag_documents"
 
-def embed_texts(texts: list[str]) -> list[list[float]]:
-    """Embed text locally on CPU with the configured SentenceTransformer."""
-    if not texts:
-        return []
-    if any(not isinstance(text, str) or not text.strip() for text in texts):
-        raise ValueError("texts must contain non-empty strings")
-
-    vectors = _embedding_model().encode(
-        texts,
-        batch_size=EMBEDDING_BATCH_SIZE,
-        normalize_embeddings=True,
-        convert_to_numpy=True,
-        show_progress_bar=len(texts) > EMBEDDING_BATCH_SIZE,
-    )
-    if vectors.ndim != 2 or vectors.shape[1] != EMBEDDING_DIM:
-        raise ValueError(
-            f"Embedding dimension mismatch: expected {EMBEDDING_DIM}, "
-            f"got {vectors.shape}"
-        )
-    return vectors.tolist()
+# Task 3 ghi metadata dạng front matter, mỗi giá trị được json.dumps:
+# ---\ntitle: "..."\nsource: "..."\nurl: "..." | null\ndoc_type: "..."\n---
+FRONT_MATTER_PATTERN = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
 
 
 @lru_cache(maxsize=1)
-def _embedding_model():
-    """Load the large model once; lazy loading keeps unit tests lightweight."""
+def _sentence_transformer():
     from sentence_transformers import SentenceTransformer
 
-    return SentenceTransformer(
-        EMBEDDING_MODEL,
-        device=EMBEDDING_DEVICE,
-        local_files_only=EMBEDDING_LOCAL_FILES_ONLY,
-    )
+    return SentenceTransformer(EMBEDDING_MODEL)
+
+
+def _embed_batch(texts: list[str]) -> list[list[float]]:
+    if EMBEDDING_PROVIDER == "sentence_transformers":
+        vectors = _sentence_transformer().encode(texts, normalize_embeddings=True)
+        return vectors.tolist()
+
+    if EMBEDDING_PROVIDER == "openai":
+        from openai import OpenAI
+
+        response = OpenAI().embeddings.create(model=EMBEDDING_MODEL, input=texts)
+        return [item.embedding for item in response.data]
+
+    if EMBEDDING_PROVIDER == "gemini":
+        from google import genai
+
+        client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+        response = client.models.embed_content(model=EMBEDDING_MODEL, contents=texts)
+        return [list(item.values) for item in response.embeddings]
+
+    raise ValueError(f"Unsupported EMBEDDING_PROVIDER: {EMBEDDING_PROVIDER}")
+
+
+def embed_texts(texts: list[str]) -> list[list[float]]:
+    vectors = []
+    for start in range(0, len(texts), EMBEDDING_BATCH_SIZE):
+        vectors.extend(_embed_batch(texts[start:start + EMBEDDING_BATCH_SIZE]))
+    return vectors
 
 
 def get_collection():
@@ -94,51 +96,49 @@ def get_collection():
     )
 
 
+def _parse_front_matter_value(raw: str):
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        return raw.strip().strip("\"'")
+
+
+def parse_markdown(path: Path) -> tuple[dict, str]:
+    """Tách front matter của Task 3 thành metadata và trả về phần nội dung."""
+    text = path.read_text(encoding="utf-8")
+    fields = {}
+    match = FRONT_MATTER_PATTERN.match(text)
+    if match:
+        for line in match.group(1).splitlines():
+            key, separator, value = line.partition(":")
+            if separator:
+                fields[key.strip()] = _parse_front_matter_value(value.strip())
+        text = text[match.end():]
+
+    relative = path.relative_to(STANDARDIZED_DIR)
+    default_doc_type = "legal" if relative.parts[0] == "legal" else "news"
+    metadata = {
+        "source": str(fields.get("source") or path.name),
+        "title": str(fields.get("title") or path.stem),
+        "doc_type": str(fields.get("doc_type") or default_doc_type),
+        "url": str(fields["url"]) if fields.get("url") else None,
+    }
+    return metadata, text.strip()
+
+
 def load_documents() -> list[dict]:
     """Đọc Markdown và trả về danh sách Document."""
     documents = []
     for path in sorted(STANDARDIZED_DIR.rglob("*.md")):
-        raw = path.read_text(encoding="utf-8").strip()
-        metadata, content = _parse_front_matter(raw)
-        if not content.strip():
+        metadata, content = parse_markdown(path)
+        if not content:
             continue
-        relative = path.relative_to(STANDARDIZED_DIR).as_posix()
-        documents.append(
-            {
-                "id": relative,
-                "content": content.strip(),
-                "metadata": {
-                    "source": str(metadata.get("source") or path.name),
-                    "title": str(metadata.get("title") or path.stem),
-                    "doc_type": str(
-                        metadata.get("doc_type")
-                        or ("legal" if "legal" in path.parts else "news")
-                    ),
-                    "url": metadata.get("url") or None,
-                },
-            }
-        )
+        documents.append({
+            "id": path.relative_to(STANDARDIZED_DIR).as_posix(),
+            "content": content,
+            "metadata": metadata,
+        })
     return documents
-
-
-def _parse_front_matter(raw: str) -> tuple[dict, str]:
-    """Parse the small JSON-valued front matter emitted by Task 3."""
-    if not raw.startswith("---\n"):
-        return {}, raw
-    end = raw.find("\n---\n", 4)
-    if end < 0:
-        return {}, raw
-    metadata: dict = {}
-    for line in raw[4:end].splitlines():
-        key, separator, value = line.partition(":")
-        if not separator:
-            continue
-        value = value.strip()
-        try:
-            metadata[key.strip()] = json.loads(value)
-        except json.JSONDecodeError:
-            metadata[key.strip()] = value.strip('"')
-    return metadata, raw[end + 5 :]
 
 
 def chunk_documents(documents: list[dict]) -> list[dict]:
@@ -148,71 +148,60 @@ def chunk_documents(documents: list[dict]) -> list[dict]:
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=CHUNK_SIZE,
         chunk_overlap=CHUNK_OVERLAP,
-        separators=["\n\n", "\n", ". ", "; ", ", ", " ", ""],
+        # Không cắt tại ". " đứng sau chữ số để giữ nguyên "1. ", "Điều 11. ";
+        # keep_separator="end" giữ dấu chấm ở cuối câu trước.
+        separators=[r"\n\n", r"\n", r"(?<!\d)\. ", r" ", r""],
+        is_separator_regex=True,
+        keep_separator="end",
     )
     chunks = []
     for document in documents:
-        for index, text in enumerate(splitter.split_text(document["content"])):
-            text = text.strip()
-            if not text:
-                continue
-            chunks.append(
-                {
-                    "id": f"{document['id']}::chunk-{index}",
-                    "content": text,
-                    "metadata": {**document["metadata"], "chunk_index": index},
-                }
-            )
+        texts = [text.strip() for text in splitter.split_text(document["content"])]
+        for index, text in enumerate(text for text in texts if text):
+            chunks.append({
+                "id": f"{document['id']}::chunk-{index}",
+                "content": text,
+                "metadata": {**document["metadata"], "chunk_index": index},
+            })
     return chunks
 
 
 def embed_chunks(chunks: list[dict]) -> list[dict]:
     """Thêm embedding vào từng chunk."""
     vectors = embed_texts([chunk["content"] for chunk in chunks])
-    return [
-        {**chunk, "embedding": vector}
-        for chunk, vector in zip(chunks, vectors, strict=True)
-    ]
+    return [{**chunk, "embedding": vector} for chunk, vector in zip(chunks, vectors)]
 
 
 def index_to_vectorstore(chunks: list[dict]) -> None:
-    """Upsert chunks vào ChromaDB."""
+    """Upsert chunks vào ChromaDB và xoá chunks cũ không còn trong corpus."""
+    collection = get_collection()
+    current_ids = {chunk["id"] for chunk in chunks}
+    stale_ids = [item_id for item_id in collection.get(include=[])["ids"]
+                 if item_id not in current_ids]
+    if stale_ids:
+        collection.delete(ids=stale_ids)
     if not chunks:
         return
-    collection = get_collection()
-    metadatas = [
-        {key: ("" if value is None else value) for key, value in chunk["metadata"].items()}
-        for chunk in chunks
-    ]
+
     collection.upsert(
         ids=[chunk["id"] for chunk in chunks],
         documents=[chunk["content"] for chunk in chunks],
         embeddings=[chunk["embedding"] for chunk in chunks],
-        metadatas=metadatas,
+        # Chroma không nhận metadata None; Task 5/6 đổi "" về lại None.
+        metadatas=[
+            {**chunk["metadata"], "url": chunk["metadata"]["url"] or ""}
+            for chunk in chunks
+        ],
     )
 
 
 def run_pipeline() -> None:
-    """Đồng bộ index, chỉ embed chunk mới hoặc có nội dung thay đổi."""
+    """Chạy load, chunk, embed và index."""
     documents = load_documents()
     chunks = chunk_documents(documents)
-    collection = get_collection()
-    current = collection.get(include=["documents"])
-    existing = dict(zip(current.get("ids", []), current.get("documents", [])))
-    active_ids = {chunk["id"] for chunk in chunks}
-    changed = [
-        chunk for chunk in chunks if existing.get(chunk["id"]) != chunk["content"]
-    ]
-    stale_ids = sorted(set(existing) - active_ids)
-
-    if changed:
-        index_to_vectorstore(embed_chunks(changed))
-    if stale_ids:
-        collection.delete(ids=stale_ids)
-    print(
-        f"Indexed {len(chunks)} chunks "
-        f"({len(changed)} updated, {len(stale_ids)} removed)"
-    )
+    embedded_chunks = embed_chunks(chunks)
+    index_to_vectorstore(embedded_chunks)
+    print(f"Indexed {len(embedded_chunks)} chunks from {len(documents)} documents")
 
 
 if __name__ == "__main__":

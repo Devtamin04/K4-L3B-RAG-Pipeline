@@ -16,36 +16,39 @@ def rerank_rrf(
     k: int = 60,
 ) -> list[dict]:
     """Fuse nhiều ranked lists và trả hybrid SearchResult."""
-    if top_k <= 0:
-        return []
-    if k < 0:
-        raise ValueError("k must be non-negative")
     scores: dict[str, float] = {}
     items: dict[str, dict] = {}
-    first_seen: dict[str, int] = {}
-    counter = 0
     for ranked_list in ranked_lists:
-        seen_in_list: set[str] = set()
+        seen_in_list = set()
         for rank, item in enumerate(ranked_list, 1):
             item_id = item["id"]
+            # Một list chỉ được góp điểm một lần cho mỗi ID.
             if item_id in seen_in_list:
                 continue
             seen_in_list.add(item_id)
-            scores[item_id] = scores.get(item_id, 0.0) + 1.0 / (k + rank)
+            scores[item_id] = scores.get(item_id, 0.0) + 1 / (k + rank)
             items.setdefault(item_id, item)
-            if item_id not in first_seen:
-                first_seen[item_id] = counter
-                counter += 1
-    ranked_ids = sorted(scores, key=lambda item_id: (-scores[item_id], first_seen[item_id]))
+
+    # sorted() ổn định: khi hoà điểm, giữ thứ tự xuất hiện đầu tiên.
+    ranked_ids = sorted(scores, key=scores.get, reverse=True)
     return [
         {
             **items[item_id],
             "score": scores[item_id],
             "retrieval_method": "hybrid",
         }
-        for item_id in ranked_ids[:top_k]
+        for item_id in ranked_ids[:max(top_k, 0)]
     ]
 
 
 if __name__ == "__main__":
-    print("Implement rerank_rrf, then run contract tests.")
+    dense = [
+        {"id": "a", "content": "A", "score": 0.9, "metadata": {}, "retrieval_method": "dense"},
+        {"id": "b", "content": "B", "score": 0.8, "metadata": {}, "retrieval_method": "dense"},
+    ]
+    bm25 = [
+        {"id": "b", "content": "B", "score": 7.0, "metadata": {}, "retrieval_method": "bm25"},
+        {"id": "c", "content": "C", "score": 5.0, "metadata": {}, "retrieval_method": "bm25"},
+    ]
+    for result in rerank_rrf([dense, bm25], top_k=3):
+        print(result["id"], round(result["score"], 5))

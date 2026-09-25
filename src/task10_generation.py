@@ -9,12 +9,16 @@ Hướng dẫn:
     5. Trả answer, sources và retrieval_source.
 
 Nếu context không đủ hoặc provider lỗi, trả safe refusal; không bịa thông tin.
+
+Citation: mỗi source có field "citation" = vị trí (bắt đầu từ 1) trong danh sách
+sources. Context gắn nhãn [n] theo field này nên [n] trong answer luôn map về
+sources[n - 1], dù thứ tự trong context đã bị reorder.
 """
 
+import logging
 import os
 import re
 
-import requests
 from dotenv import load_dotenv
 
 from .task9_retrieval_pipeline import retrieve
@@ -22,40 +26,42 @@ from .task9_retrieval_pipeline import retrieve
 
 load_dotenv()
 
+logger = logging.getLogger(__name__)
+
 TOP_K = 5
 TOP_P = 0.9
 TEMPERATURE = 0.3
+MAX_OUTPUT_TOKENS = 1024
+LLM_TIMEOUT = 60
 
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openai")
-LLM_MODEL = os.getenv("LLM_MODEL", "")
+DEFAULT_LLM_MODELS = {
+    "openai": "gpt-4o-mini",
+    "gemini": "gemini-2.5-flash",
+    "anthropic": "claude-sonnet-5",
+}
+LLM_MODEL = os.getenv("LLM_MODEL") or DEFAULT_LLM_MODELS.get(LLM_PROVIDER, "")
 
-SYSTEM_PROMPT = """Bạn là trợ lý tra cứu pháp lý cho hộ kinh doanh Việt Nam.
-Chỉ trả lời từ context được cung cấp và không suy diễn nghĩa vụ, thời hạn hoặc
-thời điểm áp dụng nếu context không nêu rõ. Mỗi khẳng định phải có citation dạng
-[Document N]. Nếu thiếu evidence, hãy từ chối xác minh. Câu trả lời chỉ mang
-tính tham khảo và không thay thế tư vấn của cơ quan có thẩm quyền."""
+REFUSAL_MESSAGE = "Tôi không thể xác minh thông tin này từ nguồn hiện có."
 
+SYSTEM_PROMPT = f"""Trả lời chỉ từ context được cung cấp.
+Mỗi khẳng định phải có citation. Nếu thiếu evidence, hãy từ chối xác minh.
 
-def _normalize_citations(answer: str, source_count: int) -> str:
-    """Normalize common bracket variants and drop impossible citation labels."""
-    answer = re.sub(
-        r"【\s*Document\s+(\d+)\s*】",
-        lambda match: f"[Document {match.group(1)}]",
-        answer,
-        flags=re.IGNORECASE,
-    )
+Quy tắc:
+- Mỗi đoạn context có nhãn dạng [n]. Sau mỗi khẳng định, ghi citation bằng đúng
+  nhãn đó, ví dụ: "Học phí được đóng theo học kỳ [2]." Có thể ghi nhiều nhãn [1][3].
+- Không dùng kiến thức ngoài context, không tự tạo nhãn không có trong context.
+- Nếu context không chứa thông tin để trả lời, chỉ trả lời đúng câu:
+  "{REFUSAL_MESSAGE}"
+- Trả lời bằng ngôn ngữ của câu hỏi, ngắn gọn và đúng trọng tâm."""
 
-    def keep_valid(match: re.Match) -> str:
-        index = int(match.group(1))
-        return match.group(0) if 1 <= index <= source_count else ""
-
-    return re.sub(
-        r"\[Document\s+(\d+)\]", keep_valid, answer, flags=re.IGNORECASE
-    ).strip()
+CITATION_PATTERN = re.compile(r"\[(\d+)\]")
 
 
 def reorder_for_llm(chunks: list[dict]) -> list[dict]:
     """Đưa chunks quan trọng về đầu và cuối context."""
+    # Input sort theo score giảm dần: hạng 1, 3, 5... ở đầu; hạng 2, 4... đảo
+    # ngược ở cuối, nên chunk kém nhất nằm giữa context.
     if len(chunks) <= 2:
         return list(chunks)
     front = chunks[::2]
@@ -66,155 +72,117 @@ def reorder_for_llm(chunks: list[dict]) -> list[dict]:
 def format_context(chunks: list[dict]) -> str:
     """Tạo context có title và source label."""
     parts = []
-    for index, chunk in enumerate(chunks, 1):
+    for position, chunk in enumerate(chunks, 1):
         metadata = chunk["metadata"]
-        url = metadata.get("url") or "N/A"
-        citation_index = metadata.get("_citation_index", index)
-        parts.append(
-            f"[Document {citation_index} | ID: {chunk['id']} | Title: {metadata['title']} | "
-            f"Source: {metadata['source']} | URL: {url}]\n{chunk['content']}"
-        )
+        label = chunk.get("citation", position)
+        header = f"[{label}] Title: {metadata['title']} | Source: {metadata['source']}"
+        if metadata.get("url"):
+            header += f" | URL: {metadata['url']}"
+        parts.append(f"{header}\n{chunk['content']}")
     return "\n\n---\n\n".join(parts)
 
 
 def call_llm(system_prompt: str, user_message: str) -> str:
     """Gọi OpenAI, Gemini hoặc Anthropic theo cấu hình."""
-    if not LLM_MODEL:
-        raise RuntimeError("LLM_MODEL chưa được cấu hình")
-
     if LLM_PROVIDER == "openai":
         from openai import OpenAI
 
-        if not os.getenv("OPENAI_API_KEY"):
-            raise RuntimeError("OPENAI_API_KEY chưa được cấu hình")
-        response = OpenAI().responses.create(
+        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"), timeout=LLM_TIMEOUT)
+        response = client.chat.completions.create(
             model=LLM_MODEL,
-            instructions=system_prompt,
-            input=user_message,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_message},
+            ],
             temperature=TEMPERATURE,
             top_p=TOP_P,
+            max_tokens=MAX_OUTPUT_TOKENS,
         )
-        return response.output_text.strip()
+        return response.choices[0].message.content or ""
 
     if LLM_PROVIDER == "gemini":
         from google import genai
         from google.genai import types
 
-        if not os.getenv("GEMINI_API_KEY"):
-            raise RuntimeError("GEMINI_API_KEY chưa được cấu hình")
-        response = genai.Client(api_key=os.environ["GEMINI_API_KEY"]).models.generate_content(
+        client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+        response = client.models.generate_content(
             model=LLM_MODEL,
             contents=user_message,
             config=types.GenerateContentConfig(
                 system_instruction=system_prompt,
                 temperature=TEMPERATURE,
                 top_p=TOP_P,
+                max_output_tokens=MAX_OUTPUT_TOKENS,
             ),
         )
-        return (response.text or "").strip()
+        return response.text or ""
 
     if LLM_PROVIDER == "anthropic":
-        from anthropic import Anthropic
+        import anthropic
 
-        if not os.getenv("ANTHROPIC_API_KEY"):
-            raise RuntimeError("ANTHROPIC_API_KEY chưa được cấu hình")
-        response = Anthropic().messages.create(
+        client = anthropic.Anthropic(
+            api_key=os.getenv("ANTHROPIC_API_KEY"), timeout=LLM_TIMEOUT
+        )
+        # Model Claude mới không cho truyền đồng thời temperature và top_p.
+        response = client.messages.create(
             model=LLM_MODEL,
             system=system_prompt,
             messages=[{"role": "user", "content": user_message}],
-            max_tokens=1200,
             temperature=TEMPERATURE,
-            top_p=TOP_P,
+            max_tokens=MAX_OUTPUT_TOKENS,
         )
-        return "".join(
-            block.text for block in response.content if hasattr(block, "text")
-        ).strip()
+        return "".join(block.text for block in response.content if block.type == "text")
 
-    if LLM_PROVIDER == "ollama":
-        api_key = os.getenv("OLLAMA_API_KEY", "")
-        chat_url = os.getenv("OLLAMA_CHAT_URL", "https://ollama.com/api/chat")
-        if not api_key:
-            raise RuntimeError("OLLAMA_API_KEY chưa được cấu hình")
-        response = requests.post(
-            chat_url,
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "model": LLM_MODEL,
-                "messages": [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_message},
-                ],
-                "stream": False,
-                "options": {"temperature": TEMPERATURE, "top_p": TOP_P},
-            },
-            timeout=(10, 180),
-        )
-        response.raise_for_status()
-        payload = response.json()
-        content = payload.get("message", {}).get("content", "")
-        if not isinstance(content, str) or not content.strip():
-            raise RuntimeError("Ollama không trả về nội dung hợp lệ")
-        return content.strip()
+    raise ValueError(f"Unsupported LLM_PROVIDER: {LLM_PROVIDER}")
 
-    raise ValueError(f"LLM_PROVIDER không được hỗ trợ: {LLM_PROVIDER}")
+
+def remove_invalid_citations(answer: str, source_count: int) -> str:
+    """Xoá citation [n] không map được về sources."""
+    return CITATION_PATTERN.sub(
+        lambda match: match.group(0) if 1 <= int(match.group(1)) <= source_count else "",
+        answer,
+    )
+
+
+def _refusal() -> dict:
+    return {"answer": REFUSAL_MESSAGE, "sources": [], "retrieval_source": "none"}
 
 
 def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
     """Trả về GenerationResult."""
-    refusal = "Tôi không thể xác minh thông tin này từ nguồn hiện có."
-    if top_k <= 0 or not query.strip():
-        return {"answer": refusal, "sources": [], "retrieval_source": "none"}
+    if not query.strip():
+        return _refusal()
+
     try:
         chunks = retrieve(query, top_k=top_k)
-    except Exception:
-        return {"answer": refusal, "sources": [], "retrieval_source": "none"}
+    except Exception as error:
+        logger.warning("Retrieval failed: %s", error)
+        return _refusal()
     if not chunks:
-        return {"answer": refusal, "sources": [], "retrieval_source": "none"}
+        return _refusal()
 
-    # Keep citation numbers tied to the original, score-sorted sources even
-    # though context blocks are reordered to reduce lost-in-the-middle.
-    labeled_chunks = [
-        {
-            **chunk,
-            "metadata": {**chunk["metadata"], "_citation_index": index},
-        }
-        for index, chunk in enumerate(chunks, 1)
-    ]
-    context = format_context(reorder_for_llm(labeled_chunks))
-    user_message = (
-        f"Context:\n{context}\n\nCâu hỏi: {query}\n\n"
-        "Trích dẫn theo dạng [Document N]."
-    )
+    sources = [{**chunk, "citation": index} for index, chunk in enumerate(chunks, 1)]
+    context = format_context(reorder_for_llm(sources))
+    user_message = f"Context:\n{context}\n\nQuestion: {query}"
+
     try:
-        answer = _normalize_citations(
-            call_llm(SYSTEM_PROMPT, user_message), len(chunks)
-        )
-    except Exception:
-        return {"answer": refusal, "sources": [], "retrieval_source": "none"}
-    if not answer:
-        return {"answer": refusal, "sources": [], "retrieval_source": "none"}
-    lowered_answer = answer.lower()
-    if any(
-        marker in lowered_answer
-        for marker in (
-            "không thể xác minh",
-            "không thể trả lời",
-            "không có đủ thông tin",
-            "không có thông tin",
-            "không có thông tin trong",
-            "không tìm thấy trong",
-        )
-    ):
-        return {"answer": answer, "sources": [], "retrieval_source": "none"}
-    method = chunks[0]["retrieval_method"]
-    retrieval_source = "pageindex" if method == "pageindex" else "hybrid"
+        answer = call_llm(SYSTEM_PROMPT, user_message).strip()
+    except Exception as error:
+        logger.warning("LLM provider %s failed: %s", LLM_PROVIDER, error)
+        return _refusal()
+
+    answer = remove_invalid_citations(answer, len(sources)).strip()
+    # Chỉ coi là từ chối khi toàn bộ câu trả lời là câu refusal; câu trả lời
+    # một phần có citation vẫn được giữ.
+    if not answer or answer.strip('"“” ') == REFUSAL_MESSAGE:
+        return _refusal()
+
     return {
         "answer": answer,
-        "sources": chunks,
-        "retrieval_source": retrieval_source,
+        "sources": sources,
+        "retrieval_source": (
+            "pageindex" if sources[0]["retrieval_method"] == "pageindex" else "hybrid"
+        ),
     }
 
 
