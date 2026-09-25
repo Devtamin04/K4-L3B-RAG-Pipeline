@@ -12,10 +12,10 @@ Giới hạn khuyến nghị: 1 trang, không chép lại README hoặc mô tả
 
 ## Thông tin
 
-- Họ và tên: Chưa cung cấp
-- Mã học viên: Chưa cung cấp
-- Nhóm: K4-L3A
-- Repository/branch: `K4-L3A-RAG-Pipeline` / `main`
+- Họ và tên: Nguyễn Quang Tuấn
+- Mã học viên: 2A202602470
+- Nhóm: K4-L3B
+- Repository/branch: `K4-L3B-RAG-Pipeline` / `main`
 
 ## Phần việc đã thực hiện
 
@@ -27,7 +27,6 @@ Giới hạn khuyến nghị: 1 trang, không chép lại README hoặc mô tả
 | Generation/UI | Ollama Cloud, citation mapping, safe refusal, Streamlit sources | `src/task10_generation.py`, `app.py` | Done |
 | Evaluation | 15 golden cases, dense-vs-hybrid, 4 Ragas metrics và calibration | `group_project/evaluation/` | Done |
 
-Chỉ kê khai công việc có thể đối chiếu bằng file, commit, pull request, test hoặc kết quả evaluation.
 
 ## Quyết định kỹ thuật quan trọng
 
@@ -57,4 +56,4 @@ Mô tả tối đa hai quyết định mà bạn trực tiếp tham gia:
 Tôi xác nhận nội dung trên phản ánh đúng phần việc của mình và có thể giải thích hoặc chạy lại trong buổi demo.
 
 - Ngày: 2026-09-23
-- Tên thành viên: Chưa cung cấp
+- Tên thành viên: Nguyễn Quang Tuấn
