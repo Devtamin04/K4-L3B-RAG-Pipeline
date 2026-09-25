@@ -16,7 +16,7 @@ Mỗi thành viên tự điền dòng của mình và chỉ kê khai phần vi�
 | # | Họ và tên | Mã học viên | Module phụ trách | Individual report |
 | --: | --- | --- | --- | --- |
 | 1 | Nguyễn Quang Tuấn | 2A202602470 | Data pipeline, Retrieval, Orchestration, Generation/UI, Evaluation | `reports/2A202602470-nqtuan.md` |
-| 2 |  |  |  |  |
+| 2 | Đỗ Trương Thành An | 2A202602889 | Data pipeline, Retrieval (BM25Plus & Chunking), Orchestration (Fallback), Generation/UI (Reordering) | `reports/2A202602889-thanhan.md` |
 | 3 |  |  |  |  |
 | 4 |  |  |  |  |
 
@@ -24,11 +24,11 @@ Mỗi thành viên tự điền dòng của mình và chỉ kê khai phần vi�
 
 | Module | Phụ trách chính | Thành viên hỗ trợ | Bằng chứng | Trạng thái |
 | --- | --- | --- | --- | --- |
-| Data pipeline (Task 1–3) | Nguyễn Quang Tuấn |  | `src/task1_*` đến `src/task3_*`, `data/` | Done |
-| Retrieval (Task 4–7) | Nguyễn Quang Tuấn |  | `src/task4_*` đến `src/task7_*` | Done |
-| Orchestration (Task 8–9) | Nguyễn Quang Tuấn |  | `src/task8_*`, `src/task9_*` | Done |
-| Generation/UI (Task 10) | Nguyễn Quang Tuấn |  | `src/task10_generation.py`, `app.py` | Done |
-| Evaluation | Nguyễn Quang Tuấn |  | `group_project/evaluation/` | Done |
+| Data pipeline (Task 1–3) | Nguyễn Quang Tuấn | Đỗ Trương Thành An | `src/task1_*` đến `src/task3_*`, `data/` | Done |
+| Retrieval (Task 4–7) | Nguyễn Quang Tuấn | Đỗ Trương Thành An | `src/task4_*` đến `src/task7_*` | Done |
+| Orchestration (Task 8–9) | Nguyễn Quang Tuấn | Đỗ Trương Thành An | `src/task8_*`, `src/task9_*` | Done |
+| Generation/UI (Task 10) | Nguyễn Quang Tuấn | Đỗ Trương Thành An | `src/task10_generation.py`, `app.py` | Done |
+| Evaluation | Nguyễn Quang Tuấn | Đỗ Trương Thành An | `group_project/evaluation/` | Done |
 |  |  |  |  |  |
 
 ## Run information
@@ -108,10 +108,17 @@ Pipeline lab trong `src/` vẫn chỉ dùng `BAAI/bge-m3`; model thay thế khô
 
 Dành cho các thành viên khác bổ sung phân tích lỗi, thí nghiệm hoặc đề xuất thuộc phần mình phụ trách.
 
-### Thành viên 2 —
+### Thành viên 2 — Đỗ Trương Thành An (2A202602889)
 
 - Nội dung:
+  - **Data Pipeline (Task 1–3):** Bổ sung hỗ trợ đa định dạng đầu vào (PDF/DOCX/HTML) vào Task 3; xây dựng cơ chế kiểm tra và thông báo theo từng file trong `convert_legal_docs` và `convert_news_articles`, bổ sung cờ `--force` để hỗ trợ re-standardize dữ liệu sạch khi có văn bản mới.
+  - **Cải tiến Lexical Search (Task 6):** Phân tích lỗi triệt tiêu điểm do IDF âm/bằng 0 trên corpus câu ngắn của `BM25Okapi`; thay thế bằng `BM25Plus` với hằng số $\delta=1$ giúp mọi từ khóa khớp đều đạt điểm dương và tuân thủ contract sorting.
+  - **Orchestration & Fallback (Task 8–9):** Hiệu chỉnh cơ chế fallback PageIndex kích hoạt dựa trên Cosine Similarity gốc thay vì điểm RRF để phản ánh chính xác ngữ nghĩa out-of-domain; bọc try-except graceful fallback tránh crash khi thiếu key dịch vụ ngoài (degraded mode).
+  - **Chống Lost-in-the-middle (Task 10):** Triển khai thuật toán `reorder_for_llm` luân phiên đưa các chunk điểm cao về đầu và cuối context trước khi gửi đến LLM, bảo toàn citations map chính xác với sources.
 - Bằng chứng:
+  - Báo cáo cá nhân: `reports/2A202602889-thanhan.md`
+  - Mã nguồn: `src/task3_convert_markdown.py`, `src/task6_lexical_search.py`, `src/task8_pageindex_vectorless.py`, `src/task9_retrieval_pipeline.py`, `src/task10_generation.py`
+  - Kết quả kiểm thử: `pytest -q` pass 21/21 tests; kết quả đánh giá A/B cho thấy nhánh Hybrid đạt điểm trung bình 0.792 (vượt trội hơn Dense-only 0.758; context recall đạt 0.867 so với 0.800 của dense).
 
 ### Thành viên 3 —
 
