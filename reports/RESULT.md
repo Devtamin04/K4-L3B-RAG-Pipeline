@@ -17,7 +17,7 @@ Mỗi thành viên tự điền dòng của mình và chỉ kê khai phần vi�
 | --: | --- | --- | --- | --- |
 | 1 | Nguyễn Quang Tuấn | 2A202602470 | Data pipeline, Retrieval, Orchestration, Generation/UI, Evaluation | `reports/2A202602470-nqtuan.md` |
 | 2 | Đỗ Trương Thành An | 2A202602889 | Data pipeline, Retrieval (BM25Plus & Chunking), Orchestration (Fallback), Generation/UI (Reordering) | `reports/2A202602889-thanhan.md` |
-| 3 |  |  |  |  |
+| 3 | Lê Minh Hiếu | 2A202602828 | Retrieval, Orchestration | `reports/2A202602828-hieulm.md` |
 | 4 |  |  |  |  |
 
 ### Ownership theo module
@@ -25,8 +25,8 @@ Mỗi thành viên tự điền dòng của mình và chỉ kê khai phần vi�
 | Module | Phụ trách chính | Thành viên hỗ trợ | Bằng chứng | Trạng thái |
 | --- | --- | --- | --- | --- |
 | Data pipeline (Task 1–3) | Nguyễn Quang Tuấn | Đỗ Trương Thành An | `src/task1_*` đến `src/task3_*`, `data/` | Done |
-| Retrieval (Task 4–7) | Nguyễn Quang Tuấn | Đỗ Trương Thành An | `src/task4_*` đến `src/task7_*` | Done |
-| Orchestration (Task 8–9) | Nguyễn Quang Tuấn | Đỗ Trương Thành An | `src/task8_*`, `src/task9_*` | Done |
+| Retrieval (Task 4–7) | Nguyễn Quang Tuấn | Lê Minh Hiếu | `src/task4_*` đến `src/task7_*` | Done |
+| Orchestration (Task 8–9) | Nguyễn Quang Tuấn | Lê Minh Hiếu | `src/task8_*`, `src/task9_*` | Done |
 | Generation/UI (Task 10) | Nguyễn Quang Tuấn | Đỗ Trương Thành An | `src/task10_generation.py`, `app.py` | Done |
 | Evaluation | Nguyễn Quang Tuấn | Đỗ Trương Thành An | `group_project/evaluation/` | Done |
 |  |  |  |  |  |
@@ -120,10 +120,15 @@ Dành cho các thành viên khác bổ sung phân tích lỗi, thí nghiệm ho�
   - Mã nguồn: `src/task3_convert_markdown.py`, `src/task6_lexical_search.py`, `src/task8_pageindex_vectorless.py`, `src/task9_retrieval_pipeline.py`, `src/task10_generation.py`
   - Kết quả kiểm thử: `pytest -q` pass 21/21 tests; kết quả đánh giá A/B cho thấy nhánh Hybrid đạt điểm trung bình 0.792 (vượt trội hơn Dense-only 0.758; context recall đạt 0.867 so với 0.800 của dense).
 
-### Thành viên 3 —
+### Thành viên 3 — Lê Minh Hiếu (2A202602828)
 
 - Nội dung:
+  - **Retrieval (Task 4–7):** Hỗ trợ triển khai và rà soát chunking recursive (`CHUNK_SIZE=500`, overlap 50), index Chroma, dense search, BM25 và RRF `k=60`; đối chiếu output với contract `SearchResult` (sort score giảm dần, giữ `id`/`metadata`).
+  - **Orchestration (Task 8–9):** Hỗ trợ luồng `retrieve()`: mỗi nhánh lấy 10 ứng viên trước khi RRF trả top 5; xét fallback bằng cosine dense gốc (threshold `0.573`) thay vì RRF score; PageIndex lỗi/thiếu key thì trả hybrid thay vì crash.
 - Bằng chứng:
+  - Báo cáo cá nhân: `reports/2A202602828-hieulm.md`
+  - Mã nguồn: `src/task4_chunking_indexing.py` đến `src/task7_reranking.py`, `src/task8_pageindex_vectorless.py`, `src/task9_retrieval_pipeline.py`
+  - Kết quả: hybrid đạt context recall 0.867 so với 0.800 của dense; điểm trung bình 0.792 so với 0.758.
 
 ### Thành viên 4 —
 
